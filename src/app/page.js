@@ -59,7 +59,12 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
-      <div className={styles.border}>DEVELOP</div>
+      <div
+        className={`${styles.border} ${styles.tagline} ${oswald.className}`}
+        style={{ paddingRight: "8px" }}
+      >
+        DEVELOP
+      </div>
       <div className={styles.border}></div>
 
       {/* ROW 5*/}
@@ -83,7 +88,12 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
-      <div className={styles.border}>DESIGN</div>
+      <div
+        className={`${styles.border} ${styles.tagline} ${oswald.className}`}
+        style={{ textAlign: "right", paddingRight: "4px" }}
+      >
+        DESIGN
+      </div>
       <div className={styles.border}></div>
 
       {/* ROW 7*/}
@@ -107,7 +117,12 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
-      <div className={styles.border}>AND</div>
+      <div
+        className={`${styles.border} ${styles.tagline} ${oswald.className}`}
+        style={{ textAlign: "right", paddingRight: "4px" }}
+      >
+        AND
+      </div>
       <div className={styles.border}></div>
 
       {/* ROW 9*/}
@@ -131,7 +146,12 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
-      <div className={styles.border}>ELEVATE</div>
+      <div
+        className={`${styles.border} ${styles.tagline} ${oswald.className}`}
+        style={{ textAlign: "right", paddingRight: "8px" }}
+      >
+        ELEVATE
+      </div>
       <div className={styles.border}></div>
 
       {/* ROW 11*/}
