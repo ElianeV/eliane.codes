@@ -3,6 +3,19 @@
   height: 100vh;
   grid-template-columns: 24px 1fr 24px 210px 24px 1fr 24px 1fr 24px;
   grid-template-rows: 24px 1fr 24px 107px 24px 107px 24px 107px 24px 107px 24px;
+  grid-template-areas:
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . bio bio bio . . ."
+    ". . . . . . . . .";
+
   background: white;
 
   .border {
@@ -23,6 +36,10 @@
     line-height: 94px;
     font-weight: 500;
     letter-spacing: -5px;
+  }
+  .biography {
+    grid-area: bio;
+    line-height: 20px;
   }
 }
 

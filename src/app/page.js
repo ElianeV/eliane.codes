@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
-      <div className={styles.border}>
+      <div className={styles.border} style={{ textAlign: "right" }}>
         Github <br />
         Linkedin
       </div>
@@ -142,9 +142,16 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}>CONTACT</div>
       <div className={styles.border}></div>
-      <div className={styles.border}>Lorem ipsum</div>
-      <div className={styles.border}></div>
-      <div className={styles.border}></div>
+      <div className={`${styles.biography} ${styles.border}`}>
+        <div style={{ alignSelf: "center" }}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div className={`${styles.biography}`}></div>
+      <div className={`${styles.biography}`}></div>
       <div className={styles.border}></div>
       <div
         className={`${styles.border} ${styles.tagline} ${oswald.className}`}
