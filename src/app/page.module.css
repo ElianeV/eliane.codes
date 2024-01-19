@@ -15,14 +15,15 @@
     ". . . . . . . . ."
     ". . . bio bio bio . . ."
     ". . . . . . . . .";
+  color: #cacaca;
 
-  background: white;
+  background: #111111;
 
   .border {
-    border: solid gray 1px;
+    border: solid #373737 1px;
   }
   .appear {
-    border: solid white 1px;
+    border: solid #111111 1px;
     animation: appear 0.1s linear 1 forwards;
   }
   .delay1 {
@@ -36,18 +37,20 @@
     line-height: 94px;
     font-weight: 500;
     letter-spacing: -5px;
+    color: #828282;
   }
   .biography {
     grid-area: bio;
     line-height: 20px;
+    min-width: 450px;
   }
 }
 
 @keyframes appear {
   0% {
-    border-color: white;
+    border-color: #111111;
   }
   100% {
-    border-color: gray;
+    border-color: #373737;
   }
 }
