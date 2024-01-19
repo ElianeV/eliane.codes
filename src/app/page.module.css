@@ -16,7 +16,6 @@
     ". . . bio bio bio . . ."
     ". . . . . . . . .";
   color: #cacaca;
-
   background: #111111;
 
   .border {
@@ -42,7 +41,10 @@
   .biography {
     grid-area: bio;
     line-height: 20px;
-    min-width: 450px;
+  }
+  .navigationelement {
+    font-size: 20px;
+    font-weight: 700;
   }
 }
 

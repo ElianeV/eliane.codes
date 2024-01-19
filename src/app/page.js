@@ -51,7 +51,9 @@ export default function Home() {
       {/* ROW 4*/}
 
       <div className={styles.border}></div>
-      <div className={styles.border}>MY WORK</div>
+      <div className={`${styles.border} ${styles.navigationelement}`}>
+        MY WORK
+      </div>
       <div className={styles.border}></div>
       <div className={`${styles.border} ${styles.tagline} ${oswald.className}`}>
         WEB
@@ -140,14 +142,15 @@ export default function Home() {
       {/* ROW 10*/}
 
       <div className={styles.border}></div>
-      <div className={styles.border}>CONTACT</div>
+      <div className={`${styles.border} ${styles.navigationelement}`}>
+        CONTACT
+      </div>
       <div className={styles.border}></div>
       <div className={`${styles.biography} ${styles.border}`}>
-        <div style={{ alignSelf: "center" }}>
+        <div style={{ maxWidth: "350px" }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          minim veniam, quis nostrud ex
         </div>
       </div>
       <div className={`${styles.biography}`}></div>
