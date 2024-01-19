@@ -53,7 +53,9 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={styles.border}>MY WORK</div>
       <div className={styles.border}></div>
-      <div className={`${styles.border} ${oswald.className}`}>WEB</div>
+      <div className={`${styles.border} ${styles.tagline} ${oswald.className}`}>
+        WEB
+      </div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>
       <div className={styles.border}></div>

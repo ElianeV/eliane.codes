@@ -17,6 +17,11 @@
   .delay2 {
     animation-delay: 4s;
   }
+  .tagline {
+    font-size: 130px;
+    line-height: 94px;
+    font-weight: 500;
+  }
 }
 
 @keyframes appear {
