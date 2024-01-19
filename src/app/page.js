@@ -143,7 +143,7 @@ export default function Home() {
 
       <div className={styles.border}></div>
       <div className={`${styles.border} ${styles.navigationelement}`}>
-        CONTACT
+        <a href="mailto:eliane.vdc@protonmail.com">CONTACT</a>
       </div>
       <div className={styles.border}></div>
       <div className={`${styles.biography} ${styles.border}`}>
