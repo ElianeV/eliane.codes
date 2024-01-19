@@ -63,7 +63,7 @@ export default function Home() {
         className={`${styles.border} ${styles.tagline} ${oswald.className}`}
         style={{ paddingRight: "8px" }}
       >
-        DEVELOP
+        DEV<span style={{ color: "#CB450C" }}>EL</span>OP
       </div>
       <div className={styles.border}></div>
 
@@ -92,7 +92,7 @@ export default function Home() {
         className={`${styles.border} ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
-        DESIGN
+        DES<span style={{ color: "#CB450C" }}>I</span>GN
       </div>
       <div className={styles.border}></div>
 
@@ -121,7 +121,7 @@ export default function Home() {
         className={`${styles.border} ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
-        AND
+        <span style={{ color: "#CB450C" }}>AN</span>D
       </div>
       <div className={styles.border}></div>
 
@@ -157,7 +157,7 @@ export default function Home() {
         className={`${styles.border} ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "8px" }}
       >
-        ELEVATE
+        ELEVAT<span style={{ color: "#CB450C" }}>E</span>
       </div>
       <div className={styles.border}></div>
 
