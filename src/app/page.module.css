@@ -4,6 +4,7 @@
   width: 100%;
   height: 561px;
   z-index: 2;
+  animation: fadeInDiv 4s linear 1 forwards;
 }
 
 .svg {
@@ -15,6 +16,8 @@
     stroke-width: 2px;
   }
 }
+
+/* GRID STYLES*/
 
 .gridcontainer {
   display: grid;
@@ -34,26 +37,17 @@
     ". . . . . . . . ."
     ". . . bio bio bio . . ."
     ". . . . . . . . .";
-
-  .bordertransparent {
-    border: solid transparent 1px;
-  }
-
-  .tagline {
-    font-size: 130px;
-    line-height: 94px;
-    font-weight: 500;
-    letter-spacing: -5px;
-    color: #828282;
-  }
-  .biography {
-    grid-area: bio;
-    line-height: 21px;
-  }
-  .navigationelement {
-    font-size: 20px;
-    font-weight: 700;
-  }
+}
+.biography {
+  grid-area: bio;
+  line-height: 21px;
+}
+.bordertransparent {
+  border: solid transparent 1px;
+}
+.navigationelement {
+  font-size: 20px;
+  font-weight: 700;
 }
 .positionback {
   position: relative;
@@ -64,33 +58,54 @@
   bottom: 0;
   z-index: 3;
 }
+.tagline {
+  font-size: 130px;
+  line-height: 94px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+
+/* ANIMATIONS */
 
 .borderdelay4 {
   border: solid #111111 1px;
-  animation: appear 0.2s linear 1 forwards;
+  animation: fadeInBorder 0.2s linear 1 forwards;
   animation-delay: 1s;
 }
 .borderdelay4 {
   border: solid #111111 1px;
-  animation: appear 0.2s linear 1 forwards;
+  animation: fadeInBorder 0.2s linear 1 forwards;
   animation-delay: 2s;
 }
 .borderdelay3 {
   border: solid #111111 1px;
-  animation: appear 0.2s linear 1 forwards;
+  animation: fadeInBorder 0.2s linear 1 forwards;
   animation-delay: 3s;
 }
 .borderdelay4 {
   border: solid #111111 1px;
-  animation: appear 0.2s linear 1 forwards;
+  animation: fadeInBorder 0.2s linear 1 forwards;
   animation-delay: 4s;
 }
 
-@keyframes appear {
+@keyframes fadeInBorder {
   0% {
     border-color: #111111;
   }
   100% {
     border-color: #373737;
+  }
+}
+
+@keyframes fadeInDiv {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
   }
 }
