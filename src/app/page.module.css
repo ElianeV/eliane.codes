@@ -35,17 +35,8 @@
     ". . . bio bio bio . . ."
     ". . . . . . . . .";
 
-  .border {
-    border: solid #373737 1px;
-  }
   .bordertransparent {
     border: solid transparent 1px;
-  }
-  .borderanimated {
-  }
-
-  .red {
-    background-color: red;
   }
 
   .tagline {
