@@ -41,16 +41,13 @@
   .bordertransparent {
     border: solid transparent 1px;
   }
-  .appear {
-    border: solid #111111 1px;
-    animation: appear 0.1s linear 1 forwards;
+  .borderanimated {
   }
-  .delay1 {
-    animation-delay: 2s;
+
+  .red {
+    background-color: red;
   }
-  .delay2 {
-    animation-delay: 4s;
-  }
+
   .tagline {
     font-size: 130px;
     line-height: 94px;
@@ -75,6 +72,27 @@
   position: absolute;
   bottom: 0;
   z-index: 3;
+}
+
+.borderdelay4 {
+  border: solid #111111 1px;
+  animation: appear 0.2s linear 1 forwards;
+  animation-delay: 1s;
+}
+.borderdelay4 {
+  border: solid #111111 1px;
+  animation: appear 0.2s linear 1 forwards;
+  animation-delay: 2s;
+}
+.borderdelay3 {
+  border: solid #111111 1px;
+  animation: appear 0.2s linear 1 forwards;
+  animation-delay: 3s;
+}
+.borderdelay4 {
+  border: solid #111111 1px;
+  animation: appear 0.2s linear 1 forwards;
+  animation-delay: 4s;
 }
 
 @keyframes appear {
