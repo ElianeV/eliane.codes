@@ -47,8 +47,8 @@ function Grid({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div className={infront ? styles.bordertransparent : styles.borderdelay8}>
-        {/* ELIANE.CODES \<br />
-        HOME */}
+        ELIANE.CODES \<br />
+        HOME
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
@@ -69,8 +69,8 @@ function Grid({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
         style={{ textAlign: "right" }}
       >
-        {/* Github <br />
-        Linkedin */}
+        Github <br />
+        Linkedin
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
@@ -116,7 +116,7 @@ function Grid({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay4
         } ${styles.navigationelement}`}
       >
-        {/* MY WORK */}
+        MY WORK
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
@@ -126,7 +126,7 @@ function Grid({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay5
         } ${styles.tagline} ${oswald.className}`}
       >
-        {/* WEB */}
+        WEB
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay6}
@@ -143,7 +143,7 @@ function Grid({ infront }) {
         } ${styles.tagline} ${oswald.className}`}
         style={{ paddingRight: "8px" }}
       >
-        {/* DEV<span style={{ color: "#CB450C" }}>EL</span>OP */}
+        DEV<span style={{ color: "#CB450C" }}>EL</span>OP
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
@@ -208,7 +208,7 @@ function Grid({ infront }) {
         } ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
-        {/* DES<span style={{ color: "#CB450C" }}>I</span>GN */}
+        DES<span style={{ color: "#CB450C" }}>I</span>GN
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay6}
@@ -273,7 +273,7 @@ function Grid({ infront }) {
         } ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
-        {/* <span style={{ color: "#CB450C" }}>AN</span>D */}
+        <span style={{ color: "#CB450C" }}>AN</span>D
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay5}
@@ -319,7 +319,7 @@ function Grid({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay8
         } ${styles.navigationelement}`}
       >
-        {/* <a href="mailto:eliane.vdc@protonmail.com">CONTACT</a> */}
+        <a href="mailto:eliane.vdc@protonmail.com">CONTACT</a>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
@@ -330,13 +330,21 @@ function Grid({ infront }) {
         }`}
       >
         <div style={{ maxWidth: "370px" }}>
-          {/* Building websites and applications with a focus on impactful
+          Building websites and applications with a focus on impactful
           communication through design. Employing a collaborative and thoughtful
-          approach to creating seamless user experiences. */}
+          approach to creating seamless user experiences.
         </div>
       </div>
-      <div className={`${styles.biography} ${styles.borderdelay6}`}></div>
-      <div className={`${styles.biography} ${styles.borderdelay6}`}></div>
+      <div
+        className={`${styles.biography} ${
+          infront ? styles.bordertransparent : styles.borderdelay6
+        }`}
+      ></div>
+      <div
+        className={`${styles.biography} ${
+          infront ? styles.bordertransparent : styles.borderdelay6
+        }`}
+      ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
@@ -346,7 +354,7 @@ function Grid({ infront }) {
         } ${styles.tagline} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "8px" }}
       >
-        {/* ELEVAT<span style={{ color: "#CB450C" }}>E</span> */}
+        ELEVAT<span style={{ color: "#CB450C" }}>E</span>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
