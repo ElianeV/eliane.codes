@@ -148,9 +148,9 @@ export default function Home() {
       <div className={styles.border}></div>
       <div className={`${styles.biography} ${styles.border}`}>
         <div style={{ maxWidth: "350px" }}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud ex
+          Building websites and applications with a focus on impactful
+          communication through design. Employing a collaborative and thoughtful
+          approach to creating seamless user experiences.
         </div>
       </div>
       <div className={`${styles.biography}`}></div>
