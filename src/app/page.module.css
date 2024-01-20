@@ -39,7 +39,7 @@
   }
   .biography {
     grid-area: bio;
-    line-height: 20px;
+    line-height: 21px;
   }
   .navigationelement {
     font-size: 20px;

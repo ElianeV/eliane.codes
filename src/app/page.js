@@ -147,7 +147,7 @@ export default function Home() {
       </div>
       <div className={styles.border}></div>
       <div className={`${styles.biography} ${styles.border}`}>
-        <div style={{ maxWidth: "350px" }}>
+        <div style={{ maxWidth: "370px" }}>
           Building websites and applications with a focus on impactful
           communication through design. Employing a collaborative and thoughtful
           approach to creating seamless user experiences.
