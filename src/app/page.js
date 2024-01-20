@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import { Oswald } from "next/font/google";
+import Grid from "../../public/components/grid";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function Home() {
           />
         </svg>
       </div>
+
       <div className={`${styles.gridcontainer} ${styles.positionback}`}>
         {/* ROW 1*/}
 
