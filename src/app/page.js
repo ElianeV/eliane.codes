@@ -19,7 +19,7 @@ export default function Home() {
           />
         </svg>
       </div>
-      <div className={`${styles.gridcontainer} ${styles.positionmiddle}`}>
+      <div className={`${styles.gridcontainer} ${styles.positionback}`}>
         {/* ROW 1*/}
 
         <div className={styles.border}></div>
