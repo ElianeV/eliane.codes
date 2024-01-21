@@ -68,8 +68,13 @@ function Grid({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
         style={{ textAlign: "right" }}
       >
-        Github <br />
-        Linkedin
+        <a href="https://github.com/ElianeV" target="_blank">
+          Github
+        </a>
+        <br />
+        <a href="https://www.linkedin.com/in/eliane-vdc/" target="_blank">
+          Linkedin
+        </a>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
