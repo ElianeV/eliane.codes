@@ -4,7 +4,6 @@ import { Oswald } from "next/font/google";
 const oswald = Oswald({ subsets: ["latin"] });
 
 function Grid({ infront }) {
-  console.log(infront);
   return (
     <div
       className={`${styles.gridcontainer} ${
