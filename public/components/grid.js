@@ -1,5 +1,6 @@
 import styles from "../../src/app/page.module.css";
 import { Oswald } from "next/font/google";
+import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -120,7 +121,7 @@ function Grid({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay4
         } ${styles.navigationelement}`}
       >
-        MY WORK
+        <Link href="/work">MY WORK</Link>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
