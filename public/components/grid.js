@@ -121,7 +121,7 @@ function Grid({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay4
         } ${styles.navigationelement}`}
       >
-        <Link href="/work">MY WORK</Link>
+        <Link href="/my-work">MY WORK</Link>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
