@@ -23,7 +23,7 @@
   display: grid;
   height: 100vh;
 
-  grid-template-columns: 24px 1fr 24px 210px 24px 1fr 24px 1fr 24px;
+  grid-template-columns: 24px 1fr 24px 210px 24px 1fr 24px 422px 24px;
   grid-template-rows: 37px 1fr 24px 107px 24px 107px 24px 107px 24px 107px 37px;
   grid-template-areas:
     ". . . . . . . . ."
