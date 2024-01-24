@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import { Oswald } from "next/font/google";
-import Grid from "../../public/components/grid";
+import Grid from "./components/grid";
 
 const oswald = Oswald({ subsets: ["latin"] });
 

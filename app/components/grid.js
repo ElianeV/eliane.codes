@@ -1,4 +1,4 @@
-import styles from "../../src/app/page.module.css";
+import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
 import Link from "next/link";
 
