@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import { Oswald } from "next/font/google";
 import Grid from "./components/grid";
+import GridTablet from "./components/grid-tablet";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -21,8 +22,10 @@ export default function Home() {
         </svg>
       </div>
 
-      <Grid infront={false} />
-      <Grid infront={true} />
+      {/* <Grid infront={false} />
+      <Grid infront={true} /> */}
+      <GridTablet infront={false} />
+      <GridTablet infront={true} />
     </main>
   );
 }
