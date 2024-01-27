@@ -70,6 +70,8 @@
 
 .biographyTablet {
   grid-area: bio;
+  line-height: 21px;
+  font-size: 14px;
 }
 
 .bordertransparent {

@@ -358,11 +358,11 @@ function GridTablet({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay6
         }`}
       >
-        {/* <div style={{ maxWidth: "400px" }}>
+        <div style={{ maxWidth: "400px" }}>
           Building websites and applications with a focus on impactful
           communication through design. Employing a collaborative and thoughtful
           approach to creating seamless user experiences.
-        </div> */}
+        </div>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
