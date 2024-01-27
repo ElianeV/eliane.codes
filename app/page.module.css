@@ -44,7 +44,7 @@
   height: 100vh;
 
   grid-template-columns: 24px 160px 24px 160px 24px 1fr 24px 315px 24px;
-  grid-template-rows: 37px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 1fr 37px;
+  grid-template-rows: 24px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 1fr 24px;
   grid-template-areas:
     ". . . . . . . . ."
     ". . . . . . . . ."
