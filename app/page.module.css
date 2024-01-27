@@ -43,8 +43,8 @@
   display: grid;
   height: 100vh;
 
-  grid-template-columns: 24px 1fr 24px 210px 24px 1fr 24px 422px 24px;
-  grid-template-rows: 37px 1fr 24px 107px 107px 24px 107px 24px 107px 24px 107px 24px 107px 24px 37px;
+  grid-template-columns: 24px 1fr 24px 210px 24px 1fr 24px 315px 24px;
+  grid-template-rows: 37px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 37px;
   grid-template-areas:
     ". . . . . . . . ."
     ". . . . . . . . ."
@@ -56,8 +56,8 @@
     ". . . . . . . . ."
     ". . . . . . . . ."
     ". . . . . . . . ."
-    ". . . bio bio bio . . ."
     ". . . . . . . . ."
+    ". bio bio bio . . . tagline ."
     ". . . . . . . . ."
     ". . . . . . . . ."
     ". . . . . . . . .";
@@ -87,6 +87,13 @@
 .tagline {
   font-size: 130px;
   line-height: 94px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+.taglineTablet {
+  font-size: 100px;
+  line-height: 120px;
   font-weight: 500;
   letter-spacing: -5px;
   color: #828282;

@@ -163,7 +163,7 @@ function GridTablet({ infront }) {
       <div
         className={`${
           infront ? styles.bordertransparent : styles.borderdelay5
-        } ${styles.tagline} ${oswald.className}`}
+        } ${styles.taglineTablet} ${oswald.className}`}
       >
         WEB
       </div>
@@ -179,7 +179,7 @@ function GridTablet({ infront }) {
       <div
         className={`${
           infront ? styles.bordertransparent : styles.borderdelay6
-        } ${styles.tagline} ${oswald.className}`}
+        } ${styles.taglineTablet} ${oswald.className}`}
         style={{ paddingRight: "8px" }}
       >
         DEV<span style={{ color: "#CB450C" }}>EL</span>OP
@@ -244,7 +244,7 @@ function GridTablet({ infront }) {
       <div
         className={`${
           infront ? styles.bordertransparent : styles.borderdelay7
-        } ${styles.tagline} ${oswald.className}`}
+        } ${styles.taglineTablet} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
         DES<span style={{ color: "#CB450C" }}>I</span>GN
@@ -309,7 +309,7 @@ function GridTablet({ infront }) {
       <div
         className={`${
           infront ? styles.bordertransparent : styles.borderdelay8
-        } ${styles.tagline} ${oswald.className}`}
+        } ${styles.taglineTablet} ${oswald.className}`}
         style={{ textAlign: "right", paddingRight: "4px" }}
       >
         <span style={{ color: "#CB450C" }}>AN</span>D
@@ -354,26 +354,27 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
-      ></div>
-      <div
         className={`${styles.biography} ${
           infront ? styles.bordertransparent : styles.borderdelay6
         }`}
       >
-        <div style={{ maxWidth: "370px" }}>
+        <div style={{ maxWidth: "400px" }}>
           Building websites and applications with a focus on impactful
           communication through design. Employing a collaborative and thoughtful
           approach to creating seamless user experiences.
         </div>
       </div>
       <div
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
+      ></div>
+
+      <div
         className={`${styles.biography} ${
           infront ? styles.bordertransparent : styles.borderdelay6
         }`}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
         className={`${styles.biography} ${
@@ -386,8 +387,12 @@ function GridTablet({ infront }) {
       <div
         className={`${
           infront ? styles.bordertransparent : styles.borderdelay7
-        } ${styles.tagline} ${oswald.className}`}
-        style={{ textAlign: "right", paddingRight: "8px" }}
+        } ${styles.taglineTablet} ${oswald.className}`}
+        style={{
+          textAlign: "right",
+          paddingRight: "8px",
+          gridArea: "tagline",
+        }}
       >
         ELEVAT<span style={{ color: "#CB450C" }}>E</span>
       </div>
