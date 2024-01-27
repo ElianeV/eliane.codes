@@ -354,15 +354,15 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={`${styles.biography} ${
+        className={`${styles.biographyTablet} ${
           infront ? styles.bordertransparent : styles.borderdelay6
         }`}
       >
-        <div style={{ maxWidth: "400px" }}>
+        {/* <div style={{ maxWidth: "400px" }}>
           Building websites and applications with a focus on impactful
           communication through design. Employing a collaborative and thoughtful
           approach to creating seamless user experiences.
-        </div>
+        </div> */}
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
@@ -392,6 +392,7 @@ function GridTablet({ infront }) {
           textAlign: "right",
           paddingRight: "8px",
           gridArea: "tagline",
+          lineHeight: "72px",
         }}
       >
         ELEVAT<span style={{ color: "#CB450C" }}>E</span>
