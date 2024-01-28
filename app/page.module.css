@@ -7,6 +7,15 @@
   animation: fadeInDiv 2s linear 1 forwards;
 }
 
+.diagonalcontainerTablet {
+  position: absolute;
+  top: 279px;
+  width: 100%;
+  height: 50%;
+  z-index: 2;
+  animation: fadeInDiv 2s linear 1 forwards;
+}
+
 .svg {
   width: 100%;
   height: 100%;
@@ -38,10 +47,42 @@
     ". . . bio bio bio . . ."
     ". . . . . . . . .";
 }
+
+.gridcontainerTablet {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: 24px 160px 24px 160px 24px 1fr 24px 315px 24px;
+  grid-template-rows: 24px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 1fr 24px;
+  grid-template-areas:
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". bio bio bio . . . tagline ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . .";
+}
+
 .biography {
   grid-area: bio;
   line-height: 21px;
 }
+
+.biographyTablet {
+  grid-area: bio;
+  line-height: 21px;
+  font-size: 14px;
+}
+
 .bordertransparent {
   border: solid transparent 1px;
 }
@@ -62,6 +103,13 @@
 .tagline {
   font-size: 130px;
   line-height: 94px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+.taglineTablet {
+  font-size: 100px;
+  line-height: 120px;
   font-weight: 500;
   letter-spacing: -5px;
   color: #828282;
@@ -128,5 +176,23 @@
   }
   100% {
     opacity: 100%;
+  }
+}
+
+@media all and (min-width: 1023px) {
+  .gridcontainerTablet {
+    display: none;
+  }
+  .diagonalcontainerTablet {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .gridcontainer {
+    display: none;
+  }
+  .diagonalcontainer {
+    display: none;
   }
 }
