@@ -84,7 +84,7 @@ function GridTablet({ infront }) {
       {/* ROW 3*/}
 
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
@@ -96,7 +96,7 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay3}
@@ -108,7 +108,7 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
 
       {/* ROW 4*/}
@@ -130,7 +130,7 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay3}
@@ -259,10 +259,10 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
@@ -271,7 +271,7 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay6}
@@ -436,54 +436,54 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
 
       {/* ROW 14*/}
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
@@ -491,31 +491,31 @@ function GridTablet({ infront }) {
 
       {/* ROW 15*/}
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay3}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay3}
+      ></div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
     </div>
   );

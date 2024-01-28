@@ -8,7 +8,7 @@ const oswald = Oswald({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main>
-      {/* <div className={styles.diagonalcontainer}>
+      <div className={styles.diagonalcontainer}>
         <svg className={styles.svg}>
           <line className={styles.line} x1="0" y1="40px" x2="100%" y2="100%" />
           <line
@@ -20,7 +20,7 @@ export default function Home() {
             transform="translate(0,24)"
           />
         </svg>
-      </div> */}
+      </div>
 
       <div className={styles.diagonalcontainerTablet}>
         <svg className={styles.svg}>
@@ -36,8 +36,8 @@ export default function Home() {
         </svg>
       </div>
 
-      {/* <Grid infront={false} />
-      <Grid infront={true} /> */}
+      <Grid infront={false} />
+      <Grid infront={true} />
       <GridTablet infront={false} />
       <GridTablet infront={true} />
     </main>

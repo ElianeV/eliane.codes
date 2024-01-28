@@ -178,3 +178,21 @@
     opacity: 100%;
   }
 }
+
+@media all and (min-width: 1023px) {
+  .gridcontainerTablet {
+    display: none;
+  }
+  .diagonalcontainerTablet {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .gridcontainer {
+    display: none;
+  }
+  .diagonalcontainer {
+    display: none;
+  }
+}
