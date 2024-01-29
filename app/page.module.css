@@ -76,25 +76,25 @@
   display: grid;
   height: 100vh;
 
-  grid-template-columns: 24px 1fr 24px 1fr 24px;
-  grid-template-rows: 24px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 1fr 24px 1fr 24px;
+  grid-template-columns: 16px 1fr 16px 200px 16px;
+  grid-template-rows: 16px 1fr 16px 83px 16px 83px 16px 83px 16px 83px 16px 83px 16px 1fr 16px 1fr 16px;
   grid-template-areas:
     ". . . . . "
+    ". nav nav nav . "
+    ". . . . . "
+    ". link link link . "
+    ". . . . . "
+    ". . . develop . "
+    ". . . . . "
+    ". . . design . "
+    ". . . . . "
+    ". . . and . "
+    ". . . . . "
+    ". . . elevate . "
     ". . . . . "
     ". . . . . "
     ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
-    ". . . . . "
+    ". bio bio bio . "
     ". . . . . ";
 }
 
