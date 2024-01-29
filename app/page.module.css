@@ -72,6 +72,32 @@
     ". . . . . . . . .";
 }
 
+.gridcontainerMobile {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: 24px 1fr 24px 1fr 24px;
+  grid-template-rows: 24px 1fr 24px 83px 24px 83px 24px 83px 24px 83px 24px 83px 24px 1fr 24px 1fr 24px;
+  grid-template-areas:
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . ";
+}
+
 .biography {
   grid-area: bio;
   line-height: 21px;
