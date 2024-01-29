@@ -15,6 +15,14 @@
   z-index: 2;
   animation: fadeInDiv 2s linear 1 forwards;
 }
+.diagonalcontainerMobile {
+  position: absolute;
+  top: 279px;
+  width: 100%;
+  height: 50%;
+  z-index: 2;
+  animation: fadeInDiv 2s linear 1 forwards;
+}
 
 .svg {
   width: 100%;
@@ -76,8 +84,8 @@
   display: grid;
   height: 100vh;
 
-  grid-template-columns: 16px 1fr 16px 200px 16px;
-  grid-template-rows: 16px 1fr 16px 83px 16px 83px 16px 83px 16px 83px 16px 83px 16px 1fr 16px 1fr 16px;
+  grid-template-columns: 16px 1fr 16px 222px 16px;
+  grid-template-rows: 16px 1fr 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 1fr 16px;
   grid-template-areas:
     ". . . . . "
     ". nav nav nav . "
@@ -117,7 +125,9 @@
   font-weight: 700;
 }
 .positionback {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   z-index: 1;
 }
 .positionfront {
@@ -136,6 +146,14 @@
 .taglineTablet {
   font-size: 100px;
   line-height: 120px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+
+.taglineMobile {
+  font-size: 72px;
+  line-height: 53px;
   font-weight: 500;
   letter-spacing: -5px;
   color: #828282;

@@ -113,8 +113,13 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
-      ></div>
+        className={`${
+          infront ? styles.bordertransparent : styles.borderdelay6
+        } ${styles.taglineMobile} ${oswald.className}`}
+        style={{ paddingRight: "8px", gridArea: "develop" }}
+      >
+        DEV<span style={{ color: "#CB450C" }}>EL</span>OP
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
@@ -131,8 +136,13 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
-      ></div>
+        className={`${
+          infront ? styles.bordertransparent : styles.borderdelay7
+        } ${styles.taglineMobile} ${oswald.className}`}
+        style={{ textAlign: "right", paddingRight: "4px", gridArea: "design" }}
+      >
+        DES<span style={{ color: "#CB450C" }}>I</span>GN
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
@@ -167,8 +177,13 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
-      ></div>
+        className={`${
+          infront ? styles.bordertransparent : styles.borderdelay8
+        } ${styles.taglineMobile} ${oswald.className}`}
+        style={{ textAlign: "right", paddingRight: "4px", gridArea: "and" }}
+      >
+        <span style={{ color: "#CB450C" }}>AN</span>D
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
@@ -203,8 +218,17 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
-      ></div>
+        className={`${
+          infront ? styles.bordertransparent : styles.borderdelay7
+        } ${styles.taglineMobile} ${oswald.className}`}
+        style={{
+          textAlign: "right",
+          paddingRight: "8px",
+          gridArea: "elevate",
+        }}
+      >
+        ELEVAT<span style={{ color: "#CB450C" }}>E</span>
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
