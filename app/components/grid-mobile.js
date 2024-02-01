@@ -17,22 +17,22 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
 
       {/* ROW 2*/}
 
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
@@ -56,10 +56,10 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
 
       {/* ROW 3*/}
@@ -74,7 +74,7 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
@@ -83,10 +83,12 @@ function GridMobile({ infront }) {
       {/* ROW 4*/}
 
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={`${
+          infront ? styles.bordertransparent : styles.borderdelay8
+        } ${styles.navigationelement}`}
         style={{
           gridArea: "link",
           display: "flex",
@@ -102,7 +104,7 @@ function GridMobile({ infront }) {
         </a>
       </div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
@@ -117,28 +119,28 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay4}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
 
       {/* ROW 6*/}
 
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
         className={`${
@@ -158,7 +160,7 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay6}
@@ -187,22 +189,22 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
 
       {/* ROW 9*/}
 
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay5}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div
         className={`${
@@ -225,13 +227,13 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
 
       {/* ROW 11*/}
@@ -240,10 +242,10 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
         className={`${
@@ -258,7 +260,7 @@ function GridMobile({ infront }) {
         ELEVAT<span style={{ color: "#CB450C" }}>E</span>
       </div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
 
       {/* ROW 12*/}
@@ -288,7 +290,7 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay1}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay5}
@@ -306,10 +308,10 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay5}
+        className={infront ? styles.bordertransparent : styles.borderdelay8}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
@@ -324,13 +326,13 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay3}
+        className={infront ? styles.bordertransparent : styles.borderdelay5}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay6}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay7}
       ></div>
 
       {/* ROW 16*/}
@@ -372,7 +374,7 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
     </div>
   );
