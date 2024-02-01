@@ -39,10 +39,8 @@ function GridMobile({ infront }) {
         style={{ gridArea: "nav" }}
       >
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <div>
-            ELIANE.CODES \<br />
-            HOME
-          </div>
+          ELIANE.CODES \<br />
+          HOME
           <div style={{ textAlign: "right" }}>
             <a href="https://github.com/ElianeV" target="_blank">
               Github
@@ -89,15 +87,25 @@ function GridMobile({ infront }) {
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
-        style={{ gridArea: "link" }}
+        style={{
+          gridArea: "link",
+          display: "flex",
+          justifyContent: "space-between",
+        }}
+      >
+        <Link href="/my-work">MY WORK</Link>
+        <a
+          href="mailto:eliane.vdc@protonmail.com"
+          style={{ textAlign: "right" }}
+        >
+          CONTACT
+        </a>
+      </div>
+      <div
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
-        style={{ gridArea: "link" }}
-      ></div>
-      <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
-        style={{ gridArea: "link" }}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
