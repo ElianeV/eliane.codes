@@ -82,7 +82,7 @@
 
 .gridcontainerMobile {
   display: grid;
-  height: 100vh;
+  height: 100%;
 
   grid-template-columns: 16px 1fr 16px 222px 16px;
   grid-template-rows: 16px 1fr 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 1fr 16px;

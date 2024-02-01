@@ -36,7 +36,11 @@ function GridMobile({ infront }) {
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
-      ></div>
+        style={{ gridArea: "nav" }}
+      >
+        ELIANE.CODES \<br />
+        HOME
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
       ></div>
@@ -311,8 +315,14 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay2}
-      ></div>
+        className={`${styles.biographyTablet} ${
+          infront ? styles.bordertransparent : styles.borderdelay6
+        }`}
+      >
+        Building websites and applications with a focus on impactful
+        communication through design. Employing a collaborative and thoughtful
+        approach to creating seamless user experiences.
+      </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay3}
       ></div>
