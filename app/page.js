@@ -22,7 +22,7 @@ export default function Home() {
           />
         </svg>
       </div>
-      {/* <div className={styles.diagonalcontainer}>
+      <div className={styles.diagonalcontainer}>
         <svg className={styles.svg}>
           <line className={styles.line} x1="0" y1="40px" x2="100%" y2="100%" />
           <line
@@ -48,13 +48,13 @@ export default function Home() {
             transform="translate(0,24)"
           />
         </svg>
-      </div> */}
+      </div>
       <GridMobile infront={false} />
       <GridMobile infront={true} />
-      {/* <GridTablet infront={false} />
+      <GridTablet infront={false} />
       <GridTablet infront={true} />
       <Grid infront={false} />
-      <Grid infront={true} /> */}
+      <Grid infront={true} />
     </main>
   );
 }

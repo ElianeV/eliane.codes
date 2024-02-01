@@ -150,7 +150,6 @@
   letter-spacing: -5px;
   color: #828282;
 }
-
 .taglineMobile {
   font-size: 72px;
   line-height: 53px;
@@ -230,13 +229,40 @@
   .diagonalcontainerTablet {
     display: none;
   }
+  .gridcontainerMobile {
+    display: none;
+  }
+  .diagonalcontainerMobile {
+    display: none;
+  }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .gridcontainer {
     display: none;
   }
   .diagonalcontainer {
+    display: none;
+  }
+  .gridcontainerMobile {
+    display: none;
+  }
+  .diagonalcontainerMobile {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .gridcontainer {
+    display: none;
+  }
+  .diagonalcontainer {
+    display: none;
+  }
+  .gridcontainerTablet {
+    display: none;
+  }
+  .diagonalcontainerTablet {
     display: none;
   }
 }
