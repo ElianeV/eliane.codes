@@ -18,7 +18,7 @@ export default function Home() {
             y1="40px"
             x2="100%"
             y2="100%"
-            transform="translate(0,24)"
+            transform="translate(0,16)"
           />
         </svg>
       </div>
