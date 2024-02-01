@@ -38,8 +38,21 @@ function GridMobile({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay2}
         style={{ gridArea: "nav" }}
       >
-        ELIANE.CODES \<br />
-        HOME
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div>
+            ELIANE.CODES \<br />
+            HOME
+          </div>
+          <div style={{ textAlign: "right" }}>
+            <a href="https://github.com/ElianeV" target="_blank">
+              Github
+            </a>
+            <br />
+            <a href="https://www.linkedin.com/in/eliane-vdc/" target="_blank">
+              Linkedin
+            </a>
+          </div>
+        </div>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
@@ -76,12 +89,15 @@ function GridMobile({ infront }) {
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
+        style={{ gridArea: "link" }}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay2}
+        style={{ gridArea: "link" }}
       ></div>
       <div
-        className={infront ? styles.bordertransparent : styles.borderdelay8}
+        className={infront ? styles.bordertransparent : styles.borderdelay2}
+        style={{ gridArea: "link" }}
       ></div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay4}
