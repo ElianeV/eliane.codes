@@ -15,6 +15,14 @@
   z-index: 2;
   animation: fadeInDiv 2s linear 1 forwards;
 }
+.diagonalcontainerMobile {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  z-index: 2;
+  animation: fadeInDiv 2s linear 1 forwards;
+}
 
 .svg {
   width: 100%;
@@ -72,6 +80,32 @@
     ". . . . . . . . .";
 }
 
+.gridcontainerMobile {
+  display: grid;
+  height: 100%;
+
+  grid-template-columns: 16px 1fr 16px 222px 16px;
+  grid-template-rows: 16px 1fr 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 1fr 16px;
+  grid-template-areas:
+    ". . . . . "
+    ". nav nav nav . "
+    ". . . . . "
+    ". link link link . "
+    ". . . . . "
+    ". . . develop . "
+    ". . . . . "
+    ". . . design . "
+    ". . . . . "
+    ". . . and . "
+    ". . . . . "
+    ". . . elevate . "
+    ". . . . . "
+    ". . . . . "
+    ". . . . . "
+    ". bio bio bio . "
+    ". . . . . ";
+}
+
 .biography {
   grid-area: bio;
   line-height: 21px;
@@ -91,7 +125,9 @@
   font-weight: 700;
 }
 .positionback {
-  position: relative;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   z-index: 1;
 }
 .positionfront {
@@ -110,6 +146,13 @@
 .taglineTablet {
   font-size: 100px;
   line-height: 120px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+.taglineMobile {
+  font-size: 72px;
+  line-height: 53px;
   font-weight: 500;
   letter-spacing: -5px;
   color: #828282;
@@ -186,13 +229,40 @@
   .diagonalcontainerTablet {
     display: none;
   }
+  .gridcontainerMobile {
+    display: none;
+  }
+  .diagonalcontainerMobile {
+    display: none;
+  }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .gridcontainer {
     display: none;
   }
   .diagonalcontainer {
+    display: none;
+  }
+  .gridcontainerMobile {
+    display: none;
+  }
+  .diagonalcontainerMobile {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .gridcontainer {
+    display: none;
+  }
+  .diagonalcontainer {
+    display: none;
+  }
+  .gridcontainerTablet {
+    display: none;
+  }
+  .diagonalcontainerTablet {
     display: none;
   }
 }
