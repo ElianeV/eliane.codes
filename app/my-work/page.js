@@ -1,3 +1,4 @@
+import { getDisplayName } from "next/dist/shared/lib/utils";
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
 import Link from "next/link";
@@ -15,7 +16,15 @@ const Work = () => {
 
       {/* ROW 2*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div
+        className={styles.borderdelay8}
+        style={{ display: "flex", justifyContent: "space-between" }}
+      >
+        ELIANE.CODES \<br />
+        HOME
+        <Link href="/">Back</Link>
+      </div>
+
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 3*/}
@@ -25,7 +34,17 @@ const Work = () => {
 
       {/* ROW 4*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div
+        className={styles.borderdelay8}
+        style={{ display: "flex", justifyContent: "space-between" }}
+      >
+        <p style={{ maxWidth: "400px" }}>
+          Providing custom digital solutions that bring long-term strategic
+          value and make your business thrive. Stand out while staying true to
+          your essence.
+        </p>
+        <p className={`${styles.tagline} ${oswald.className}`}>MY WORK</p>
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 5*/}
@@ -45,7 +64,17 @@ const Work = () => {
 
       {/* ROW 8*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={`${styles.borderdelay8} ${styles.titlecontainer}`}>
+        <div className={`${styles.projecttitle} ${oswald.className}`}>
+          DEVIVED GAMES
+        </div>
+        <p>
+          Freelance
+          <br />
+          Branding, web design & development
+        </p>
+        <a href="">UNDER DEVELOPMENT \</a>
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 9*/}
@@ -55,7 +84,11 @@ const Work = () => {
 
       {/* ROW 10*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div
+        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
+      >
+        WOMEN'S ROCK FESTIVAL
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 11*/}
@@ -65,7 +98,11 @@ const Work = () => {
 
       {/* ROW 12*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div
+        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
+      >
+        WHAT DO YOU FEEL LIKE
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 13*/}
@@ -75,7 +112,11 @@ const Work = () => {
 
       {/* ROW 14*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div
+        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
+      >
+        BENDY CANDLE
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 15*/}
