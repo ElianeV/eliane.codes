@@ -158,6 +158,15 @@
   color: #828282;
 }
 
+/* MY WORK */
+
+.myworkcontainer {
+  display: grid;
+
+  grid-template-columns: 16px 1fr 16px;
+  grid-template-rows: 16px 1fr 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 62px 16px 1fr 16px 1fr 16px;
+}
+
 /* ANIMATIONS */
 
 .borderdelay1 {
