@@ -43,7 +43,12 @@ const Work = () => {
           value and make your business thrive. Stand out while staying true to
           your essence.
         </p>
-        <p className={`${styles.tagline} ${oswald.className}`}>MY WORK</p>
+        <p
+          className={`${styles.tagline} ${oswald.className}`}
+          style={{ paddingRight: "4px" }}
+        >
+          MY WORK
+        </p>
       </div>
       <div className={styles.borderdelay8}></div>
 
