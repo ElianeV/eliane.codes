@@ -21,7 +21,7 @@ const Work = () => {
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         ELIANE.CODES \<br />
-        HOME
+        MY WORK
         <Link href="/">Back</Link>
       </div>
 
@@ -70,14 +70,16 @@ const Work = () => {
       {/* ROW 8*/}
       <div className={styles.borderdelay8}></div>
       <div className={`${styles.borderdelay8} ${styles.titlecontainer}`}>
-        <div className={`${styles.projecttitle} ${oswald.className}`}>
-          DEVIVED GAMES
+        <div style={{ display: "flex", alignItems: "center" }}>
+          <div className={`${styles.projecttitle} ${oswald.className}`}>
+            DEVIVED GAMES
+          </div>
+          <div className={styles.projectinfo}>
+            Freelance
+            <br />
+            Branding, web design & development
+          </div>
         </div>
-        <p>
-          Freelance
-          <br />
-          Branding, web design & development
-        </p>
         <a href="">UNDER DEVELOPMENT \</a>
       </div>
       <div className={styles.borderdelay8}></div>

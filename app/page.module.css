@@ -168,7 +168,7 @@
 }
 .titlecontainer {
   display: flex;
-  justify-content: between;
+  justify-content: space-between;
   align-items: center;
 }
 .projecttitle {
@@ -176,6 +176,10 @@
   line-height: 53px;
   letter-spacing: -2px;
   color: #cb450c;
+}
+
+.projectinfo {
+  margin-left: 32px;
 }
 
 /* ANIMATIONS */
