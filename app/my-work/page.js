@@ -70,17 +70,18 @@ const Work = () => {
       {/* ROW 8*/}
       <div className={styles.borderdelay8}></div>
       <div className={`${styles.borderdelay8} ${styles.titlecontainer}`}>
-        <div style={{ display: "flex", alignItems: "center" }}>
-          <div className={`${styles.projecttitle} ${oswald.className}`}>
-            DEVIVED GAMES
-          </div>
-          <div className={styles.projectinfo}>
-            Freelance
-            <br />
-            Branding, web design & development
-          </div>
+        <div className={`${styles.projecttitle} ${oswald.className}`}>
+          DEVIVED GAMES
         </div>
-        <a href="">UNDER DEVELOPMENT \</a>
+        <div className={styles.projectinfo}>
+          Freelance
+          <br />
+          Branding, web design & development
+        </div>
+
+        <a className={styles.projectlink} href="">
+          UNDER DEVELOPMENT \
+        </a>
       </div>
       <div className={styles.borderdelay8}></div>
 
