@@ -2,6 +2,7 @@ import { getDisplayName } from "next/dist/shared/lib/utils";
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
 import Link from "next/link";
+import ProjectDropdown from "../components/project-dropdown";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -69,20 +70,13 @@ const Work = () => {
 
       {/* ROW 8*/}
       <div className={styles.borderdelay8}></div>
-      <div className={`${styles.borderdelay8} ${styles.titlecontainer}`}>
-        <div className={`${styles.projecttitle} ${oswald.className}`}>
-          DEVIVED GAMES
-        </div>
-        <div className={styles.projectinfo}>
-          Freelance
-          <br />
-          Branding, web design & development
-        </div>
-
-        <a className={styles.projectlink} href="">
-          UNDER DEVELOPMENT \
-        </a>
-      </div>
+      <ProjectDropdown
+        name="DEVIVED GAMES"
+        type="Freelance"
+        role="Branding, web design & development"
+        linktext="UNDER DEVELOPMENT \"
+        url=""
+      />
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 9*/}
