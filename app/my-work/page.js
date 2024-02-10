@@ -1,12 +1,15 @@
+"use client";
 import { getDisplayName } from "next/dist/shared/lib/utils";
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
 import Link from "next/link";
 import ProjectDropdown from "../components/project-dropdown";
+import { useState } from "react";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
 const Work = () => {
+  const [proj1, setProj1] = useState(false);
   return (
     <div className={styles.myworkcontainer}>
       {/* ROW 1*/}
@@ -76,6 +79,8 @@ const Work = () => {
         role="Branding, web design & development"
         linktext="UNDER DEVELOPMENT \"
         url=""
+        DD={proj1}
+        setDD={setProj1}
       />
       <div className={styles.borderdelay8}></div>
 

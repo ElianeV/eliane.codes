@@ -168,7 +168,13 @@
 }
 .titlecontainer {
   display: flex;
+  cursor: pointer;
 }
+
+.titlecontainer:hover {
+  background-color: red;
+}
+
 .projecttitle {
   font-size: 72px;
   line-height: 53px;
@@ -183,6 +189,15 @@
 
 .projectlink {
   margin: auto 0 auto auto;
+}
+
+.block {
+  display: block;
+  background-color: red;
+}
+
+.hidden {
+  display: none;
 }
 
 /* ANIMATIONS */

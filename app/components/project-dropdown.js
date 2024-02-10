@@ -3,19 +3,29 @@ import { Oswald } from "next/font/google";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
-function ProjectDropdown({ name, type, role, linktext, url }) {
+function ProjectDropdown({ name, type, role, linktext, url, DD, setDD }) {
   return (
-    <div className={`${styles.borderdelay8} ${styles.titlecontainer}`}>
-      <div className={`${styles.projecttitle} ${oswald.className}`}>{name}</div>
-      <div className={styles.projectinfo}>
-        {type}
-        <br />
-        {role}
+    <>
+      <div
+        onClick={() => {
+          setDD(!DD);
+        }}
+        className={`${styles.borderdelay8} ${styles.titlecontainer}`}
+      >
+        <div className={`${styles.projecttitle} ${oswald.className}`}>
+          {name}
+        </div>
+        <div className={styles.projectinfo}>
+          {type}
+          <br />
+          {role}
+        </div>
+        <a className={styles.projectlink} href={url}>
+          {linktext}
+        </a>
+        <div className={`${DD ? styles.block : styles.hidden}`}>Hello</div>
       </div>
-      <a className={styles.projectlink} href={url}>
-        {linktext}
-      </a>
-    </div>
+    </>
   );
 }
 
