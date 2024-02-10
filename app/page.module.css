@@ -168,8 +168,6 @@
 }
 .titlecontainer {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .projecttitle {
   font-size: 72px;
@@ -180,6 +178,11 @@
 
 .projectinfo {
   margin-left: 32px;
+  margin: auto 0 auto 32px;
+}
+
+.projectlink {
+  margin: auto 0 auto auto;
 }
 
 /* ANIMATIONS */
