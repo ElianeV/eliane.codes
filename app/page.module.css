@@ -162,9 +162,8 @@
 
 .myworkcontainer {
   display: grid;
-
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 37px 1fr 24px 107px 24px 62px 24px 62px 24px 62px 24px 62px 24px 62px 24px 1fr 24px 1fr 37px;
+  grid-template-rows: 37px 1fr 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 1fr 24px 1fr 37px;
 }
 .titlecontainer {
   display: flex;
@@ -180,6 +179,7 @@
   line-height: 53px;
   letter-spacing: -2px;
   color: #cb450c;
+  padding-bottom: 7px;
 }
 
 .projectinfo {
@@ -193,7 +193,6 @@
 
 .block {
   display: block;
-  background-color: red;
 }
 
 .hidden {

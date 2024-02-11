@@ -10,19 +10,21 @@ function ProjectDropdown({ name, type, role, linktext, url, DD, setDD }) {
         onClick={() => {
           setDD(!DD);
         }}
-        className={`${styles.borderdelay8} ${styles.titlecontainer}`}
+        className={`${styles.borderdelay8}`}
       >
-        <div className={`${styles.projecttitle} ${oswald.className}`}>
-          {name}
+        <div className={`${styles.titlecontainer}`}>
+          <div className={`${styles.projecttitle} ${oswald.className}`}>
+            {name}
+          </div>
+          <div className={styles.projectinfo}>
+            {type}
+            <br />
+            {role}
+          </div>
+          <a className={styles.projectlink} href={url}>
+            {linktext}
+          </a>
         </div>
-        <div className={styles.projectinfo}>
-          {type}
-          <br />
-          {role}
-        </div>
-        <a className={styles.projectlink} href={url}>
-          {linktext}
-        </a>
         <div className={`${DD ? styles.block : styles.hidden}`}>Hello</div>
       </div>
     </>
