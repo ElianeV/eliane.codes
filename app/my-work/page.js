@@ -17,14 +17,14 @@ const Work = () => {
     <div className={styles.myworkcontainer}>
       {/* ROW 1*/}
 
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 2*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <div
-        className={styles.borderdelay8}
+        className={styles.borderdelay0}
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         <p>
@@ -35,17 +35,17 @@ const Work = () => {
         <Link href="/">Back</Link>
       </div>
 
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 3*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 4*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <div
-        className={styles.borderdelay8}
+        className={styles.borderdelay0}
         style={{ display: "flex", justifyContent: "space-between" }}
       >
         <p style={{ maxWidth: "400px" }}>
@@ -60,25 +60,25 @@ const Work = () => {
           MY WORK
         </p>
       </div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 5*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 6*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 7*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 8*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <ProjectDropdown
         name="DEVIVED GAMES"
         type="Freelance"
@@ -93,15 +93,15 @@ const Work = () => {
         designstack="something, something, something"
         developmentstack="something, something, something"
       />
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 9*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 10*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <ProjectDropdown
         name="WOMEN'S ROCK FESTIVAL"
         type="Freelance"
@@ -116,15 +116,15 @@ const Work = () => {
         designstack="something, something, something"
         developmentstack="something, something, something"
       />
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 11*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 12*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <ProjectDropdown
         name="WHAT DO YOU FEEL LIKE"
         type="Personal project"
@@ -139,15 +139,15 @@ const Work = () => {
         designstack="something, something, something"
         developmentstack="something, something, something"
       />
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 13*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 14*/}
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
       <ProjectDropdown
         name="BENDY CANDLE"
         type="Personal project"
@@ -162,37 +162,37 @@ const Work = () => {
         designstack="something, something, something"
         developmentstack="something, something, something"
       />
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 15*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 16*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 17*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 18*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={`${styles.borderdelay8} ${styles.CTA}`}>
+      <div className={styles.borderdelay0}></div>
+      <div className={`${styles.borderdelay0} ${styles.CTA}`}>
         Want to collaborate? <br />
         <span style={{ fontWeight: "bold", marginTop: "16px" }}>
           <a href="mailto:eliane.vdc@protonmail.com">REACH OUT</a>
         </span>
       </div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
 
       {/* ROW 19*/}
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
     </div>
   );
 };
