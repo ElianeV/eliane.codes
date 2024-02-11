@@ -87,6 +87,8 @@ const Work = () => {
         url=""
         DD={proj1}
         setDD={setProj1}
+        img="/devivedgamesimg.jpeg"
+        alt="Close-up picture of a hand typing on a keyboard."
         about="A solo developer in need of a complete brand which exudes modernity, professionalism and something else."
         designstack="something, something, something"
         developmentstack="something, something, something"
@@ -108,6 +110,8 @@ const Work = () => {
         url=""
         DD={proj2}
         setDD={setProj2}
+        img="/wrfimg.jpeg"
+        alt="Woman rock climbing."
         about="The official website for the Women's Rock festival, a climbing event organised by women for women. The only of its kind in Ireland."
         designstack="something, something, something"
         developmentstack="something, something, something"
@@ -129,6 +133,8 @@ const Work = () => {
         url=""
         DD={proj3}
         setDD={setProj3}
+        img="/wdyflimg.jpeg"
+        alt="A bowl of spaghetti bolognese."
         about="An online recipe book which can be modified using a password."
         designstack="something, something, something"
         developmentstack="something, something, something"
@@ -150,6 +156,8 @@ const Work = () => {
         url="https://bendycandle.netlify.app"
         DD={proj4}
         setDD={setProj4}
+        img="/bendycandleimg.jpeg"
+        alt="Woman doing stretches on a yoga mat."
         about="An app designed to help time passive stretching which can be used hands-free."
         designstack="something, something, something"
         developmentstack="something, something, something"

@@ -11,6 +11,8 @@ function ProjectDropdown({
   url,
   DD,
   setDD,
+  img,
+  alt,
   about,
   designstack,
   developmentstack,
@@ -37,7 +39,8 @@ function ProjectDropdown({
           </a>
         </div>
         <div className={`${DD ? styles.block : styles.hidden}`}>
-          <div className={styles.projectimage}></div>
+          <img className={styles.projectimage} src={img} alt={alt} />
+
           <div style={{ marginLeft: "32px" }}>
             <h3>ABOUT</h3>
             <p style={{ paddingTop: "16px", maxWidth: "400px" }}>{about}</p>
