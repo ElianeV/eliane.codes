@@ -165,13 +165,17 @@
   grid-template-columns: 24px 1fr 24px;
   grid-template-rows: 37px 1fr 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 1fr 24px 1fr 37px;
 }
-.titlecontainer {
-  display: flex;
+
+.projectcontainer {
   cursor: pointer;
 }
 
-.titlecontainer:hover {
-  background-color: red;
+.titlecontainer {
+  display: flex;
+}
+
+.projectcontainer:hover {
+  background-color: #1c1c1c;
 }
 
 .projecttitle {
@@ -191,8 +195,15 @@
   margin: auto 0 auto auto;
 }
 
+.projectimage {
+  width: 440px;
+  height: 246px;
+  background-color: #cb450c;
+}
+
 .block {
-  display: block;
+  display: flex;
+  padding-top: 24px;
 }
 
 .hidden {
@@ -200,6 +211,10 @@
 }
 
 /* ANIMATIONS */
+
+.borderdelay0 {
+  border: solid #111111 1px;
+}
 
 .borderdelay1 {
   border: solid #111111 1px;
