@@ -10,6 +10,9 @@ const oswald = Oswald({ subsets: ["latin"] });
 
 const Work = () => {
   const [proj1, setProj1] = useState(false);
+  const [proj2, setProj2] = useState(false);
+  const [proj3, setProj3] = useState(false);
+  const [proj4, setProj4] = useState(false);
   return (
     <div className={styles.myworkcontainer}>
       {/* ROW 1*/}
@@ -91,11 +94,15 @@ const Work = () => {
 
       {/* ROW 10*/}
       <div className={styles.borderdelay8}></div>
-      <div
-        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
-      >
-        WOMEN'S ROCK FESTIVAL
-      </div>
+      <ProjectDropdown
+        name="WOMEN'S ROCK FESTIVAL"
+        type="Freelance"
+        role="Web design & development"
+        linktext="LIVE SITE \"
+        url=""
+        DD={proj2}
+        setDD={setProj2}
+      />
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 11*/}
@@ -105,11 +112,15 @@ const Work = () => {
 
       {/* ROW 12*/}
       <div className={styles.borderdelay8}></div>
-      <div
-        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
-      >
-        WHAT DO YOU FEEL LIKE
-      </div>
+      <ProjectDropdown
+        name="WHAT DO YOU FEEL LIKE"
+        type="Freelance"
+        role="Web design & development"
+        linktext="LIVE SITE \"
+        url=""
+        DD={proj3}
+        setDD={setProj3}
+      />
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 13*/}
@@ -119,11 +130,15 @@ const Work = () => {
 
       {/* ROW 14*/}
       <div className={styles.borderdelay8}></div>
-      <div
-        className={`${styles.borderdelay8} ${styles.projecttitle} ${oswald.className}`}
-      >
-        BENDY CANDLE
-      </div>
+      <ProjectDropdown
+        name="BENDY CANDLE"
+        type="Freelance"
+        role="Web design & development"
+        linktext="LIVE SITE \"
+        url=""
+        DD={proj4}
+        setDD={setProj4}
+      />
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 15*/}

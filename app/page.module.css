@@ -183,7 +183,8 @@
   line-height: 53px;
   letter-spacing: -2px;
   color: #cb450c;
-  padding-bottom: 7px;
+  padding-bottom: 6px;
+  font-weight: 400;
 }
 
 .projectinfo {
@@ -193,6 +194,7 @@
 
 .projectlink {
   margin: auto 0 auto auto;
+  font-weight: bold;
 }
 
 .projectimage {
