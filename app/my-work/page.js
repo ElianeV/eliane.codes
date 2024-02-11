@@ -27,8 +27,11 @@ const Work = () => {
         className={styles.borderdelay8}
         style={{ display: "flex", justifyContent: "space-between" }}
       >
-        ELIANE.CODES \<br />
-        MY WORK
+        <p>
+          <Link href="/">ELIANE.CODES \</Link>
+          <br />
+          MY WORK
+        </p>
         <Link href="/">Back</Link>
       </div>
 

@@ -47,8 +47,11 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay1}
       ></div>
       <div className={infront ? styles.bordertransparent : styles.borderdelay8}>
-        ELIANE.CODES \<br />
-        HOME
+        <p>
+          <Link href="/">ELIANE.CODES \</Link>
+          <br />
+          HOME
+        </p>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}

@@ -39,8 +39,11 @@ function GridMobile({ infront }) {
         style={{ gridArea: "nav" }}
       >
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          ELIANE.CODES \<br />
-          HOME
+          <p>
+            <Link href="/">ELIANE.CODES \</Link>
+            <br />
+            HOME
+          </p>
           <div style={{ textAlign: "right" }}>
             <a href="https://github.com/ElianeV" target="_blank">
               Github
