@@ -84,7 +84,7 @@ const Work = () => {
         type="Freelance"
         role="Branding, web design & development"
         linktext="UNDER DEVELOPMENT \"
-        url=""
+        url="/my-work"
         DD={proj1}
         setDD={setProj1}
         img="/devivedgamesimg.jpeg"
@@ -107,7 +107,7 @@ const Work = () => {
         type="Freelance"
         role="Web design & development"
         linktext="LIVE SITE \"
-        url=""
+        url="https://wrf.vercel.app"
         DD={proj2}
         setDD={setProj2}
         img="/wrfimg.jpeg"
@@ -130,7 +130,7 @@ const Work = () => {
         type="Personal project"
         role="Web design & development"
         linktext="LIVE SITE \"
-        url=""
+        url="https://whatdoyoufeellike.vercel.app"
         DD={proj3}
         setDD={setProj3}
         img="/wdyflimg.jpeg"
