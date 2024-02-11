@@ -87,6 +87,9 @@ const Work = () => {
         url=""
         DD={proj1}
         setDD={setProj1}
+        about="A solo developer in need of a complete brand which exudes modernity, professionalism and something else."
+        designstack="something, something, something"
+        developmentstack="something, something, something"
       />
       <div className={styles.borderdelay8}></div>
 
@@ -105,6 +108,9 @@ const Work = () => {
         url=""
         DD={proj2}
         setDD={setProj2}
+        about="The official website for the Women's Rock festival, a climbing event organised by women for women. The only of its kind in Ireland."
+        designstack="something, something, something"
+        developmentstack="something, something, something"
       />
       <div className={styles.borderdelay8}></div>
 
@@ -117,12 +123,15 @@ const Work = () => {
       <div className={styles.borderdelay8}></div>
       <ProjectDropdown
         name="WHAT DO YOU FEEL LIKE"
-        type="Freelance"
+        type="Personal project"
         role="Web design & development"
         linktext="LIVE SITE \"
         url=""
         DD={proj3}
         setDD={setProj3}
+        about="An online recipe book which can be modified using a password."
+        designstack="something, something, something"
+        developmentstack="something, something, something"
       />
       <div className={styles.borderdelay8}></div>
 
@@ -135,12 +144,15 @@ const Work = () => {
       <div className={styles.borderdelay8}></div>
       <ProjectDropdown
         name="BENDY CANDLE"
-        type="Freelance"
+        type="Personal project"
         role="Web design & development"
         linktext="LIVE SITE \"
-        url=""
+        url="https://bendycandle.netlify.app"
         DD={proj4}
         setDD={setProj4}
+        about="An app designed to help time passive stretching which can be used hands-free."
+        designstack="something, something, something"
+        developmentstack="something, something, something"
       />
       <div className={styles.borderdelay8}></div>
 
@@ -161,7 +173,12 @@ const Work = () => {
 
       {/* ROW 18*/}
       <div className={styles.borderdelay8}></div>
-      <div className={styles.borderdelay8}></div>
+      <div className={`${styles.borderdelay8} ${styles.CTA}`}>
+        Want to collaborate? <br />
+        <span style={{ fontWeight: "bold", marginTop: "16px" }}>
+          <a href="mailto:eliane.vdc@protonmail.com">REACH OUT</a>
+        </span>
+      </div>
       <div className={styles.borderdelay8}></div>
 
       {/* ROW 19*/}

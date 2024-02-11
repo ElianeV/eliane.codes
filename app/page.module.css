@@ -163,7 +163,7 @@
 .myworkcontainer {
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 37px 1fr 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 1fr 24px 1fr 37px;
+  grid-template-rows: 37px 98px 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
 }
 
 .projectcontainer {
@@ -198,7 +198,7 @@
 }
 
 .projectimage {
-  width: 440px;
+  width: 400px;
   height: 246px;
   background-color: #cb450c;
 }
@@ -210,6 +210,12 @@
 
 .hidden {
   display: none;
+}
+
+.CTA {
+  font-size: 24px;
+  text-align: center;
+  padding: 16px 0;
 }
 
 /* ANIMATIONS */

@@ -3,7 +3,18 @@ import { Oswald } from "next/font/google";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
-function ProjectDropdown({ name, type, role, linktext, url, DD, setDD }) {
+function ProjectDropdown({
+  name,
+  type,
+  role,
+  linktext,
+  url,
+  DD,
+  setDD,
+  about,
+  designstack,
+  developmentstack,
+}) {
   return (
     <>
       <div
@@ -21,7 +32,7 @@ function ProjectDropdown({ name, type, role, linktext, url, DD, setDD }) {
             <br />
             {role}
           </p>
-          <a className={styles.projectlink} href={url}>
+          <a className={styles.projectlink} href={url} target="_blank">
             {linktext}
           </a>
         </div>
@@ -29,12 +40,19 @@ function ProjectDropdown({ name, type, role, linktext, url, DD, setDD }) {
           <div className={styles.projectimage}></div>
           <div style={{ marginLeft: "32px" }}>
             <h3>ABOUT</h3>
-            <p style={{ paddingTop: "16px" }}>Some text here</p>
+            <p style={{ paddingTop: "16px", maxWidth: "400px" }}>{about}</p>
           </div>
-          <div style={{ marginLeft: "32px" }}>
+          <div style={{ marginLeft: "32px", maxWidth: "200px" }}>
             <h3>STACK</h3>
             <p style={{ paddingTop: "16px" }}>
-              Design: something, something; something,...
+              <span style={{ textDecoration: "underline" }}>Design:</span>
+              <br />
+              {designstack}
+            </p>
+            <p style={{ paddingTop: "16px" }}>
+              <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
+              <br />
+              {developmentstack}
             </p>
           </div>
         </div>
