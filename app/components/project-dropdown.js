@@ -34,7 +34,11 @@ function ProjectDropdown({
             <br />
             {role}
           </p>
-          <a className={styles.projectlink} href={url} target="_blank">
+          <a
+            className={`${styles.projectlink} ${styles.underline}`}
+            href={url}
+            target="_blank"
+          >
             {linktext}
           </a>
         </div>

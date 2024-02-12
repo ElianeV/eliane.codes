@@ -45,11 +45,19 @@ function GridMobile({ infront }) {
             HOME
           </p>
           <div style={{ textAlign: "right" }}>
-            <a href="https://github.com/ElianeV" target="_blank">
+            <a
+              className={styles.underline}
+              href="https://github.com/ElianeV"
+              target="_blank"
+            >
               Github
             </a>
             <br />
-            <a href="https://www.linkedin.com/in/eliane-vdc/" target="_blank">
+            <a
+              className={styles.underline}
+              href="https://www.linkedin.com/in/eliane-vdc/"
+              target="_blank"
+            >
               Linkedin
             </a>
           </div>
@@ -98,8 +106,11 @@ function GridMobile({ infront }) {
           justifyContent: "space-between",
         }}
       >
-        <Link href="/my-work">MY WORK</Link>
+        <Link className={styles.underline} href="/my-work">
+          MY WORK
+        </Link>
         <a
+          className={styles.underline}
           href="mailto:eliane.vdc@protonmail.com"
           style={{ textAlign: "right" }}
         >

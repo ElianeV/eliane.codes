@@ -32,7 +32,9 @@ const Work = () => {
           <br />
           MY WORK
         </p>
-        <Link href="/">Back</Link>
+        <Link className={styles.underline} href="/">
+          Back
+        </Link>
       </div>
 
       <div className={styles.borderdelay0}></div>
@@ -184,7 +186,12 @@ const Work = () => {
       <div className={`${styles.borderdelay0} ${styles.CTA}`}>
         Want to collaborate? <br />
         <span style={{ fontWeight: "bold", marginTop: "16px" }}>
-          <a href="mailto:eliane.vdc@protonmail.com">REACH OUT</a>
+          <a
+            className={styles.underline}
+            href="mailto:eliane.vdc@protonmail.com"
+          >
+            REACH OUT
+          </a>
         </span>
       </div>
       <div className={styles.borderdelay0}></div>

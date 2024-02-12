@@ -72,11 +72,19 @@ function GridTablet({ infront }) {
         className={infront ? styles.bordertransparent : styles.borderdelay8}
         style={{ textAlign: "right" }}
       >
-        <a href="https://github.com/ElianeV" target="_blank">
+        <a
+          className={styles.underline}
+          href="https://github.com/ElianeV"
+          target="_blank"
+        >
           Github
         </a>
         <br />
-        <a href="https://www.linkedin.com/in/eliane-vdc/" target="_blank">
+        <a
+          className={styles.underline}
+          href="https://www.linkedin.com/in/eliane-vdc/"
+          target="_blank"
+        >
           Linkedin
         </a>
       </div>
@@ -124,7 +132,9 @@ function GridTablet({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay4
         } ${styles.navigationelement}`}
       >
-        <Link href="/my-work">MY WORK</Link>
+        <Link className={styles.underline} href="/my-work">
+          MY WORK
+        </Link>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
@@ -146,7 +156,9 @@ function GridTablet({ infront }) {
           infront ? styles.bordertransparent : styles.borderdelay8
         } ${styles.navigationelement}`}
       >
-        <a href="mailto:eliane.vdc@protonmail.com">CONTACT</a>
+        <a className={styles.underline} href="mailto:eliane.vdc@protonmail.com">
+          CONTACT
+        </a>
       </div>
       <div
         className={infront ? styles.bordertransparent : styles.borderdelay8}
