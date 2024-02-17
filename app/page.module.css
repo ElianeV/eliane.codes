@@ -170,8 +170,26 @@
   grid-template-rows: 37px 98px 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
 }
 
+.myworkcontainerTablet {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-rows: 37px 98px 24px 83px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+}
+
+.taglineTabletWork {
+  font-size: 100px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+
 .projectcontainer {
   cursor: pointer;
+}
+
+.projectcontainerTablet {
 }
 
 .titlecontainer {
@@ -191,18 +209,53 @@
   font-weight: 400;
 }
 
+.projecttitleTablet {
+  font-size: 48px;
+  line-height: 36px;
+  letter-spacing: -2px;
+  color: #cb450c;
+  padding-bottom: 3px;
+  font-weight: 400;
+}
+
+.projectButtonTablet {
+  font-size: 16px;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #cacaca;
+  cursor: pointer;
+  margin: auto 0 auto auto;
+  font-weight: bold;
+}
+
 .projectinfo {
-  margin-left: 32px;
   margin: auto 0 auto 32px;
+}
+.projectinfoTablet {
+  margin: auto 0 auto 16px;
+  font-size: 14px;
 }
 
 .projectlink {
   margin: auto 0 auto auto;
   font-weight: bold;
 }
+.projectlinkTablet {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 32px;
+  display: inline-block;
+  float: right;
+}
 
 .projectimage {
   width: 400px;
+}
+.projectimageTablet {
+  width: 260px;
+  height: auto;
 }
 
 .block {
