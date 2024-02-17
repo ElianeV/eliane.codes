@@ -37,7 +37,7 @@ function ProjectDropdownTablet({
               setDD(!DD);
             }}
           >
-            EXPAND \
+            {DD ? "COLLAPSE \\" : "EXPAND \\"}
           </button>
         </div>
         <div className={`${DD ? styles.block : styles.hidden}`}>
@@ -45,7 +45,7 @@ function ProjectDropdownTablet({
             <img className={styles.projectimageTablet} src={img} alt={alt} />
           </div>
 
-          <div style={{ marginLeft: "32px" }}>
+          <div style={{ marginLeft: "32px", width: "100%" }}>
             <h3>ABOUT</h3>
             <p style={{ paddingTop: "16px" }}>{about}</p>
 
