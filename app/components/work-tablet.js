@@ -49,7 +49,7 @@ const WorkTablet = () => {
         className={styles.borderdelay0}
         style={{ display: "flex", justifyContent: "space-between" }}
       >
-        <p style={{ maxWidth: "400px" }}>
+        <p style={{ maxWidth: "350px" }}>
           Providing custom digital solutions that bring long-term strategic
           value and make your business thrive. Stand out while staying true to
           your essence.

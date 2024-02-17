@@ -189,7 +189,6 @@
 }
 
 .projectcontainerTablet {
-  cursor: pointer;
 }
 
 .titlecontainer {
@@ -218,18 +217,43 @@
   font-weight: 400;
 }
 
+.projectButtonTablet {
+  font-size: 14px;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #cacaca;
+  cursor: pointer;
+  margin: auto 0 auto auto;
+  font-weight: bold;
+}
+
 .projectinfo {
-  margin-left: 32px;
   margin: auto 0 auto 32px;
+}
+.projectinfoTablet {
+  margin: auto 0 auto 16px;
 }
 
 .projectlink {
   margin: auto 0 auto auto;
   font-weight: bold;
 }
+.projectlinkTablet {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 32px;
+  display: inline-block;
+  float: right;
+}
 
 .projectimage {
   width: 400px;
+}
+.projectimageTablet {
+  width: 260px;
+  height: auto;
 }
 
 .block {

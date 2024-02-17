@@ -26,35 +26,30 @@ function ProjectDropdownTablet({
           <h2 className={`${styles.projecttitleTablet} ${oswald.className}`}>
             {name}
           </h2>
-          <p className={styles.projectinfo}>
+          <p className={styles.projectinfoTablet}>
             {type}
             <br />
             {role}
           </p>
           <button
+            className={`${styles.projectButtonTablet} ${styles.underline}`}
             onClick={() => {
               setDD(!DD);
             }}
           >
-            Expand \
+            EXPAND \
           </button>
-          {/* <a
-            className={`${styles.projectlink} ${styles.underline}`}
-            href={url}
-            target="_blank"
-          >
-            {linktext}
-          </a> */}
         </div>
         <div className={`${DD ? styles.block : styles.hidden}`}>
-          <img className={styles.projectimage} src={img} alt={alt} />
+          <div>
+            <img className={styles.projectimageTablet} src={img} alt={alt} />
+          </div>
 
           <div style={{ marginLeft: "32px" }}>
             <h3>ABOUT</h3>
-            <p style={{ paddingTop: "16px", maxWidth: "400px" }}>{about}</p>
-          </div>
-          <div style={{ marginLeft: "32px", maxWidth: "200px" }}>
-            <h3>STACK</h3>
+            <p style={{ paddingTop: "16px" }}>{about}</p>
+
+            <h3 style={{ marginTop: "32px" }}>STACK</h3>
             <p style={{ paddingTop: "16px" }}>
               <span style={{ textDecoration: "underline" }}>Design:</span>
               <br />
@@ -65,6 +60,13 @@ function ProjectDropdownTablet({
               <br />
               {developmentstack}
             </p>
+            <a
+              className={`${styles.projectlinkTablet} ${styles.underline}`}
+              href={url}
+              target="_blank"
+            >
+              {linktext}
+            </a>
           </div>
         </div>
       </div>
