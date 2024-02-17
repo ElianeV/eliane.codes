@@ -1,14 +1,12 @@
 "use client";
 import styles from "../../app/page.module.css";
-import { Oswald } from "next/font/google";
 import Work from "../components/work";
-
-const oswald = Oswald({ subsets: ["latin"] });
+import WorkTablet from "../components/work-tablet";
 
 const Mywork = () => {
   return (
     <>
-      <Work />
+      <WorkTablet />
     </>
   );
 };

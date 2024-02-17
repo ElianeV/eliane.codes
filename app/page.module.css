@@ -170,7 +170,25 @@
   grid-template-rows: 37px 98px 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
 }
 
+.myworkcontainerTablet {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-rows: 37px 98px 24px 83px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+}
+
+.taglineTabletWork {
+  font-size: 100px;
+  line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+
 .projectcontainer {
+  cursor: pointer;
+}
+
+.projectcontainerTablet {
   cursor: pointer;
 }
 
@@ -188,6 +206,15 @@
   letter-spacing: -2px;
   color: #cb450c;
   padding-bottom: 6px;
+  font-weight: 400;
+}
+
+.projecttitleTablet {
+  font-size: 48px;
+  line-height: 36px;
+  letter-spacing: -2px;
+  color: #cb450c;
+  padding-bottom: 3px;
   font-weight: 400;
 }
 
