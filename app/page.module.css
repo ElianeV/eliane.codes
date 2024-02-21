@@ -37,6 +37,8 @@
 /* GRID STYLES*/
 
 .gridcontainer {
+  max-width: 1440px;
+  margin: 0 auto 0 auto;
   display: grid;
   height: 100vh;
 
@@ -165,16 +167,19 @@
 /* MY WORK */
 
 .myworkcontainer {
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 37px 98px 24px 107px 24px 62px 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+  grid-template-rows: 37px 98px 24px 107px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 1fr 24px 1fr 37px;
 }
 
 .myworkcontainerTablet {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 37px 96px 24px 83px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+  grid-template-rows: 37px 96px 24px 83px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 1fr 24px 1fr 37px;
 }
 .myworkcontainerMobile {
   min-height: 100vh;
