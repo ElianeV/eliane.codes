@@ -8,6 +8,8 @@ const Mywork = () => {
   return (
     <>
       <WorkMobile />
+      <WorkTablet />
+      <Work />
     </>
   );
 };
