@@ -174,12 +174,25 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 24px 1fr 24px;
-  grid-template-rows: 37px 98px 24px 83px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+  grid-template-rows: 37px 96px 24px 83px 24px 1fr 24px auto 24px auto 24px auto 24px auto 24px 62px 24px 1fr 37px;
+}
+.myworkcontainerMobile {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  grid-template-rows: 16px 98px 16px 60px 16px auto 16px 40px 16px auto 16px auto 16px auto 16px auto 16px 62px 16px 1fr 16px;
 }
 
 .taglineTabletWork {
   font-size: 100px;
   line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -5px;
+  color: #828282;
+}
+.taglineMobileWork {
+  font-size: 72px;
+  line-height: 52px;
   font-weight: 500;
   letter-spacing: -5px;
   color: #828282;
@@ -218,6 +231,16 @@
   font-weight: 400;
 }
 
+.projecttitleMobile {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #cb450c;
+  padding-bottom: 8px;
+  font-weight: 400;
+  margin-top: -6px;
+}
+
 .projectButtonTablet {
   font-size: 16px;
   background: none;
@@ -230,11 +253,26 @@
   font-weight: bold;
 }
 
+.projectButtonMobile {
+  font-size: 40px;
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #cacaca;
+  cursor: pointer;
+  padding-left: 4px;
+  margin: auto 0 0 auto;
+}
+
 .projectinfo {
   margin: auto 0 auto 32px;
 }
 .projectinfoTablet {
   margin: auto 0 auto 16px;
+  font-size: 14px;
+}
+.projectinfoMobile {
   font-size: 14px;
 }
 
@@ -255,6 +293,10 @@
 }
 .projectimageTablet {
   width: 260px;
+  height: auto;
+}
+.projectimageMobile {
+  width: 100%;
   height: auto;
 }
 

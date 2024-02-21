@@ -23,51 +23,52 @@ function ProjectDropdownMobile({
         className={`${styles.borderdelay8} ${styles.projectcontainerTablet}`}
       >
         <div className={`${styles.titlecontainer}`}>
-          <h2 className={`${styles.projecttitleTablet} ${oswald.className}`}>
-            {name}
-          </h2>
-          <p className={styles.projectinfoTablet}>
-            {type}
-            <br />
-            {role}
-          </p>
+          <div>
+            <h2 className={`${styles.projecttitleMobile} ${oswald.className}`}>
+              {name}
+            </h2>
+            <p className={styles.projectinfoMobile}>
+              {type}
+              <br />
+              {role}
+            </p>
+          </div>
           <button
-            className={`${styles.projectButtonTablet} ${styles.underline}`}
+            className={`${styles.projectButtonMobile} ${styles.underline}`}
             onClick={() => {
               setDD(!DD);
             }}
           >
-            {DD ? "COLLAPSE \\" : "EXPAND \\"}
+            {DD ? "-" : "+"}
           </button>
         </div>
-        <div className={`${DD ? styles.block : styles.hidden}`}>
-          <div>
-            <img className={styles.projectimageTablet} src={img} alt={alt} />
-          </div>
+        <div
+          className={`${DD ? styles.block : styles.hidden}`}
+          style={{ flexDirection: "column" }}
+        >
+          <img className={styles.projectimageMobile} src={img} alt={alt} />
 
-          <div style={{ marginLeft: "32px", width: "100%" }}>
-            <h3>ABOUT</h3>
-            <p style={{ paddingTop: "16px" }}>{about}</p>
+          <h3 style={{ marginTop: "26px" }}>ABOUT</h3>
+          <p style={{ paddingTop: "16px" }}>{about}</p>
 
-            <h3 style={{ marginTop: "32px" }}>STACK</h3>
-            <p style={{ paddingTop: "16px" }}>
-              <span style={{ textDecoration: "underline" }}>Design:</span>
-              <br />
-              {designstack}
-            </p>
-            <p style={{ paddingTop: "16px" }}>
-              <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
-              <br />
-              {developmentstack}
-            </p>
-            <a
-              className={`${styles.projectlinkTablet} ${styles.underline}`}
-              href={url}
-              target="_blank"
-            >
-              {linktext}
-            </a>
-          </div>
+          <h3 style={{ marginTop: "32px" }}>STACK</h3>
+          <p style={{ paddingTop: "16px" }}>
+            <span style={{ textDecoration: "underline" }}>Design:</span>
+            <br />
+            {designstack}
+          </p>
+          <p style={{ paddingTop: "16px" }}>
+            <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
+            <br />
+            {developmentstack}
+          </p>
+          <a
+            className={`${styles.projectlinkTablet} ${styles.underline}`}
+            href={url}
+            target="_blank"
+          >
+            {linktext}
+          </a>
         </div>
       </div>
     </>

@@ -13,7 +13,7 @@ const WorkMobile = () => {
   const [proj3, setProj3] = useState(false);
   const [proj4, setProj4] = useState(false);
   return (
-    <div className={styles.myworkcontainerTablet}>
+    <div className={styles.myworkcontainerMobile}>
       {/* ROW 1*/}
 
       <div className={styles.borderdelay0}></div>
@@ -35,7 +35,6 @@ const WorkMobile = () => {
           Back
         </Link>
       </div>
-
       <div className={styles.borderdelay0}></div>
 
       {/* ROW 3*/}
@@ -45,17 +44,9 @@ const WorkMobile = () => {
 
       {/* ROW 4*/}
       <div className={styles.borderdelay0}></div>
-      <div
-        className={styles.borderdelay0}
-        style={{ display: "flex", justifyContent: "space-between" }}
-      >
-        <p style={{ maxWidth: "350px" }}>
-          Providing custom digital solutions that bring long-term strategic
-          value and make your business thrive. Stand out while staying true to
-          your essence.
-        </p>
+      <div className={styles.borderdelay0} style={{ textAlign: "right" }}>
         <p
-          className={`${styles.taglineTabletWork} ${oswald.className}`}
+          className={`${styles.taglineMobileWork} ${oswald.className}`}
           style={{ paddingRight: "4px" }}
         >
           MY WORK
@@ -64,6 +55,23 @@ const WorkMobile = () => {
       <div className={styles.borderdelay0}></div>
 
       {/* ROW 5*/}
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}></div>
+
+      {/* ROW 20*/}
+      <div className={styles.borderdelay0}></div>
+      <div className={styles.borderdelay0}>
+        {" "}
+        <p style={{ maxWidth: "350px" }}>
+          Providing custom digital solutions that bring long-term strategic
+          value and make your business thrive. Stand out while staying true to
+          your essence.
+        </p>
+      </div>
+      <div className={styles.borderdelay0}></div>
+
+      {/* ROW 21*/}
       <div className={styles.borderdelay0}></div>
       <div className={styles.borderdelay0}></div>
       <div className={styles.borderdelay0}></div>
