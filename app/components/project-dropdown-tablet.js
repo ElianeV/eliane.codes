@@ -51,14 +51,14 @@ function ProjectDropdownTablet({
 
             <h3 style={{ marginTop: "32px" }}>STACK</h3>
             <p style={{ paddingTop: "16px" }}>
-              <span style={{ textDecoration: "underline" }}>Design:</span>
-              <br />
-              {designstack}
-            </p>
-            <p style={{ paddingTop: "16px" }}>
               <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
               <br />
               {developmentstack}
+            </p>
+            <p style={{ paddingTop: "16px" }}>
+              <span style={{ textDecoration: "underline" }}>Design:</span>
+              <br />
+              {designstack}
             </p>
             <a
               className={`${styles.projectlinkTablet} ${styles.underline}`}

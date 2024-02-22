@@ -52,14 +52,14 @@ function ProjectDropdown({
           <div style={{ marginLeft: "32px", maxWidth: "200px" }}>
             <h3>STACK</h3>
             <p style={{ paddingTop: "16px" }}>
-              <span style={{ textDecoration: "underline" }}>Design:</span>
-              <br />
-              {designstack}
-            </p>
-            <p style={{ paddingTop: "16px" }}>
               <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
               <br />
               {developmentstack}
+            </p>
+            <p style={{ paddingTop: "16px" }}>
+              <span style={{ textDecoration: "underline" }}>Design:</span>
+              <br />
+              {designstack}
             </p>
           </div>
         </div>
