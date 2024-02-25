@@ -14,6 +14,7 @@ function ProjectDropdownMobile({
   img,
   alt,
   about,
+  about2,
   designstack,
   developmentstack,
 }) {
@@ -50,17 +51,18 @@ function ProjectDropdownMobile({
 
           <h3 style={{ marginTop: "26px" }}>ABOUT</h3>
           <p style={{ paddingTop: "16px" }}>{about}</p>
+          <p style={{ paddingTop: "16px" }}>{about2}</p>
 
           <h3 style={{ marginTop: "32px" }}>STACK</h3>
-          <p style={{ paddingTop: "16px" }}>
-            <span style={{ textDecoration: "underline" }}>Design:</span>
-            <br />
-            {designstack}
-          </p>
           <p style={{ paddingTop: "16px" }}>
             <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
             <br />
             {developmentstack}
+          </p>
+          <p style={{ paddingTop: "16px" }}>
+            <span style={{ textDecoration: "underline" }}>Design:</span>
+            <br />
+            {designstack}
           </p>
           <a
             className={`${styles.projectlinkTablet} ${styles.underline}`}

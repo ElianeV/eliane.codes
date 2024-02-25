@@ -14,6 +14,7 @@ function ProjectDropdown({
   img,
   alt,
   about,
+  about2,
   designstack,
   developmentstack,
 }) {
@@ -47,19 +48,36 @@ function ProjectDropdown({
 
           <div style={{ marginLeft: "32px" }}>
             <h3>ABOUT</h3>
-            <p style={{ paddingTop: "16px", maxWidth: "400px" }}>{about}</p>
+            <p
+              style={{
+                paddingTop: "16px",
+                minWidth: "340px",
+                maxWidth: "500px",
+              }}
+            >
+              {about}
+            </p>
+            <p
+              style={{
+                paddingTop: "16px",
+                minWidth: "340px",
+                maxWidth: "500px",
+              }}
+            >
+              {about2}
+            </p>
           </div>
           <div style={{ marginLeft: "32px", maxWidth: "200px" }}>
             <h3>STACK</h3>
             <p style={{ paddingTop: "16px" }}>
-              <span style={{ textDecoration: "underline" }}>Design:</span>
-              <br />
-              {designstack}
-            </p>
-            <p style={{ paddingTop: "16px" }}>
               <span style={{ textDecoration: "underline" }}>Development:</span>{" "}
               <br />
               {developmentstack}
+            </p>
+            <p style={{ paddingTop: "16px" }}>
+              <span style={{ textDecoration: "underline" }}>Design:</span>
+              <br />
+              {designstack}
             </p>
           </div>
         </div>
