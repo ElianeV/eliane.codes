@@ -1,5 +1,6 @@
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
+import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -35,16 +36,18 @@ function ProjectDropdown({
             <br />
             {role}
           </p>
-          <a
+          <Link
             className={`${styles.projectlink} ${styles.underline}`}
             href={url}
             target="_blank"
           >
             {linktext}
-          </a>
+          </Link>
         </div>
         <div className={`${DD ? styles.block : styles.hidden}`}>
-          <img className={styles.projectimage} src={img} alt={alt} />
+          <Link href={url} target="_blank">
+            <img className={styles.projectimage} src={img} alt={alt} />
+          </Link>
 
           <div style={{ marginLeft: "32px" }}>
             <h3>ABOUT</h3>

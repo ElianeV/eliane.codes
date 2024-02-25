@@ -1,5 +1,6 @@
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
+import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -43,7 +44,9 @@ function ProjectDropdownTablet({
         </div>
         <div className={`${DD ? styles.block : styles.hidden}`}>
           <div>
-            <img className={styles.projectimageTablet} src={img} alt={alt} />
+            <Link href={url} target="_blank">
+              <img className={styles.projectimageTablet} src={img} alt={alt} />
+            </Link>
           </div>
 
           <div style={{ marginLeft: "32px", width: "100%" }}>
@@ -62,13 +65,13 @@ function ProjectDropdownTablet({
               <br />
               {designstack}
             </p>
-            <a
+            <Link
               className={`${styles.projectlinkTablet} ${styles.underline}`}
               href={url}
               target="_blank"
             >
               {linktext}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

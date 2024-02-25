@@ -1,5 +1,6 @@
 import styles from "../../app/page.module.css";
 import { Oswald } from "next/font/google";
+import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
 
@@ -47,7 +48,9 @@ function ProjectDropdownMobile({
           className={`${DD ? styles.block : styles.hidden}`}
           style={{ flexDirection: "column" }}
         >
-          <img className={styles.projectimageMobile} src={img} alt={alt} />
+          <Link href={url} target="_blank">
+            <img className={styles.projectimageMobile} src={img} alt={alt} />
+          </Link>
 
           <h3 style={{ marginTop: "26px" }}>ABOUT</h3>
           <p style={{ paddingTop: "16px" }}>{about}</p>
@@ -64,13 +67,13 @@ function ProjectDropdownMobile({
             <br />
             {designstack}
           </p>
-          <a
+          <Link
             className={`${styles.projectlinkTablet} ${styles.underline}`}
             href={url}
             target="_blank"
           >
             {linktext}
-          </a>
+          </Link>
         </div>
       </div>
     </>
