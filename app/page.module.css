@@ -23,6 +23,14 @@
   z-index: 2;
   animation: fadeInDiv 2s linear 1 forwards;
 }
+.diagonalcontainerLarge {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+  z-index: 2;
+  animation: fadeInDiv 2s linear 1 forwards;
+}
 
 .svg {
   width: 100%;
@@ -36,7 +44,7 @@
 
 /* GRID STYLES*/
 
-.gridcontainerXL {
+.gridcontainerLarge {
   display: grid;
   height: 100vh;
 
@@ -412,7 +420,15 @@
   }
 }
 
-@media all and (min-width: 1024px) {
+/* Visible on large desktop size */
+
+@media all and (min-width: 1441px) {
+  .gridcontainer {
+    display: none;
+  }
+  .diagonalcontainer {
+    display: none;
+  }
   .gridcontainerTablet {
     display: none;
   }
@@ -425,8 +441,6 @@
   .diagonalcontainerMobile {
     display: none;
   }
-  .myworkcontainer {
-  }
   .myworkcontainerTablet {
     display: none;
   }
@@ -434,6 +448,38 @@
     display: none;
   }
 }
+
+/* Visible on regular desktop size */
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+  .gridcontainerTablet {
+    display: none;
+  }
+  .diagonalcontainerTablet {
+    display: none;
+  }
+  .gridcontainerMobile {
+    display: none;
+  }
+  .diagonalcontainerMobile {
+    display: none;
+  }
+  .gridcontainerLarge {
+    display: none;
+  }
+  .diagonalcontainerLarge {
+    display: none;
+  }
+
+  .myworkcontainerTablet {
+    display: none;
+  }
+  .myworkcontainerMobile {
+    display: none;
+  }
+}
+
+/* Visible on tablet */
 
 @media all and (min-width: 769px) and (max-width: 1023px) {
   .gridcontainer {
@@ -454,7 +500,15 @@
   .myworkcontainerMobile {
     display: none;
   }
+  .gridcontainerLarge {
+    display: none;
+  }
+  .diagonalcontainerLarge {
+    display: none;
+  }
 }
+
+/* Visible on mobile */
 
 @media all and (max-width: 768px) {
   .gridcontainer {
@@ -473,6 +527,12 @@
     display: none;
   }
   .myworkcontainerTablet {
+    display: none;
+  }
+  .gridcontainerLarge {
+    display: none;
+  }
+  .diagonalcontainerLarge {
     display: none;
   }
 }

@@ -7,7 +7,7 @@ const oswald = Oswald({ subsets: ["latin"] });
 function GridLarge({ infront }) {
   return (
     <div
-      className={`${styles.gridcontainerXL} ${
+      className={`${styles.gridcontainerLarge} ${
         infront ? styles.positionfront : styles.positionback
       }`}
     >
