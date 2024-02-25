@@ -3,6 +3,7 @@ import { Montserrat, Oswald } from "next/font/google";
 import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 function ProjectDropdownTablet({
   name,
@@ -34,7 +35,7 @@ function ProjectDropdownTablet({
             {role}
           </p>
           <button
-            className={`${styles.projectButtonTablet} ${styles.underline} ${Montserrat.className}`}
+            className={`${styles.projectButtonTablet} ${styles.underline} ${montserrat.className}`}
             onClick={() => {
               setDD(!DD);
             }}
