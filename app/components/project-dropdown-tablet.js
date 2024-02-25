@@ -22,7 +22,7 @@ function ProjectDropdownTablet({
   return (
     <>
       <div
-        className={`${styles.borderdelay8} ${styles.projectcontainerTablet}`}
+        className={`${styles.borderdelay0} ${styles.projectcontainerTablet}`}
       >
         <div className={`${styles.titlecontainerTouch}`}>
           <h2 className={`${styles.projecttitleTablet} ${oswald.className}`}>

@@ -21,7 +21,7 @@ function ProjectDropdown({
 }) {
   return (
     <>
-      <div className={`${styles.borderdelay8} ${styles.projectcontainer}`}>
+      <div className={`${styles.borderdelay0} ${styles.projectcontainer}`}>
         <div
           onClick={() => {
             setDD(!DD);
