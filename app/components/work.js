@@ -163,7 +163,7 @@ const Work = () => {
         img="/bendycandleimg.jpeg"
         alt="Woman doing stretches on a yoga mat."
         about="Bendy Candle lets you create your own flexibility routine and use a countdown timer while holding passive stretches."
-        about2="It ensures hands-free usage by incorporating visual and auditory cueues to signal transitions between exercises."
+        about2="It ensures hands-free usage by incorporating visual and auditory cues to signal transitions between exercises."
         designstack="Linearity Curve"
         developmentstack="JavaScipt, SCSS, Netlify"
       />
