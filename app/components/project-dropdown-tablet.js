@@ -1,5 +1,5 @@
 import styles from "../../app/page.module.css";
-import { Oswald } from "next/font/google";
+import { Montserrat, Oswald } from "next/font/google";
 import Link from "next/link";
 
 const oswald = Oswald({ subsets: ["latin"] });
@@ -34,7 +34,7 @@ function ProjectDropdownTablet({
             {role}
           </p>
           <button
-            className={`${styles.projectButtonTablet} ${styles.underline}`}
+            className={`${styles.projectButtonTablet} ${styles.underline} ${Montserrat.className}`}
             onClick={() => {
               setDD(!DD);
             }}
