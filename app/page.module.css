@@ -239,6 +239,10 @@
   cursor: pointer;
 }
 
+.titlecontainerTouch {
+  display: flex;
+}
+
 .titlecontainer:hover {
   background-color: #1c1c1c;
 }

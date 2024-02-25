@@ -24,7 +24,7 @@ function ProjectDropdownTablet({
       <div
         className={`${styles.borderdelay8} ${styles.projectcontainerTablet}`}
       >
-        <div className={`${styles.titlecontainer}`}>
+        <div className={`${styles.titlecontainerTouch}`}>
           <h2 className={`${styles.projecttitleTablet} ${oswald.className}`}>
             {name}
           </h2>

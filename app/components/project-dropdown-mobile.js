@@ -24,7 +24,7 @@ function ProjectDropdownMobile({
       <div
         className={`${styles.borderdelay8} ${styles.projectcontainerTablet}`}
       >
-        <div className={`${styles.titlecontainer}`}>
+        <div className={`${styles.titlecontainerTouch}`}>
           <div>
             <h2 className={`${styles.projecttitleMobile} ${oswald.className}`}>
               {name}
