@@ -90,9 +90,10 @@ const Work = () => {
         setDD={setProj1}
         img="/devivedgamesimg.jpeg"
         alt="Close-up picture of a hand typing on a keyboard."
-        about="A solo developer in need of a complete brand which exudes modernity, professionalism and something else."
-        designstack="something, something, something"
-        developmentstack="something, something, something"
+        about="Devived Games is a video game development company looking for a comprehensive brand package. This includes creating a distinctive visual identity, logo and website.   
+         A solo developer in need of a complete brand which exudes modernity, professionalism and something else."
+        designstack="Figma, Affinity Designer, Affinity Photo"
+        developmentstack="Under construction. To be determinded."
       />
       <div className={styles.borderdelay0}></div>
 
@@ -113,9 +114,9 @@ const Work = () => {
         setDD={setProj2}
         img="/wrfimg.jpeg"
         alt="Woman rock climbing."
-        about="The official website for the Women's Rock festival, a climbing event organised by women for women. The only of its kind in Ireland."
-        designstack="something, something, something"
-        developmentstack="something, something, something"
+        about="Ireland's Women's Rock festival is an outdoor climbing event organised by women for women. Following a succesful first edition in 2022, the team recognized the need for a professional website. Noteworthy features include a custom booking system, email automation and a database designed to effortlessly retrieve information of over 80 participant and volunteers."
+        designstack="Figma, Linearity Curve"
+        developmentstack="JavaScipt/TypeScript, TailwindCSS, Next, Vercel, Prisma, Postgres, Stripe, Sendgrid, Mapbox"
       />
       <div className={styles.borderdelay0}></div>
 
@@ -136,9 +137,9 @@ const Work = () => {
         setDD={setProj3}
         img="/wdyflimg.jpeg"
         alt="A bowl of spaghetti bolognese."
-        about="An online recipe book which can be modified using a password."
-        designstack="something, something, something"
-        developmentstack="something, something, something"
+        about="What do you feel like? This website lets you create your own online recipe book. This passion project has helped inspire me on many occasions what to cook and to easily follow instructions. Especially handy are the filter function and to be able to modify whenever you want to change the recipe."
+        designstack="Figma, Linearity Curve"
+        developmentstack="JavaScript/TypeScript, TailwindCSS, Next, Vercel, Prisma, AWS"
       />
       <div className={styles.borderdelay0}></div>
 

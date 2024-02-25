@@ -36,9 +36,29 @@
 
 /* GRID STYLES*/
 
+.gridcontainerXL {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: 24px 1fr 24px 422px 24px 210px 24px 1fr 24px 422px 24px 1fr 24px;
+  grid-template-rows: 37px 1fr 24px 107px 24px 107px 24px 107px 24px 107px 24px 1fr 37px;
+  grid-template-areas:
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . .  . . bio bio bio . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . ."
+    ". . . . . . . . . . . . .";
+}
+
 .gridcontainer {
-  max-width: 1440px;
-  margin: 0 auto 0 auto;
   display: grid;
   height: 100vh;
 
