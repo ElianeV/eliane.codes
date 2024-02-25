@@ -90,8 +90,8 @@ const Work = () => {
         setDD={setProj1}
         img="/devivedgamesimg.jpeg"
         alt="Close-up picture of a hand typing on a keyboard."
-        about="Devived Games is a video game development company looking for a comprehensive brand package. This includes creating a distinctive visual identity, logo and website.   
-         A solo developer in need of a complete brand which exudes modernity, professionalism and something else."
+        about="Devived Games is a video game development company in need of a comprehensive brand package. This includes a distinctive visual identity, logo and website."
+        about2="The aim is to highlight the company's dedication to delivering high-quality games and prioritization of user feedback."
         designstack="Figma, Affinity Designer, Affinity Photo"
         developmentstack="Under construction. To be determinded."
       />
@@ -114,7 +114,8 @@ const Work = () => {
         setDD={setProj2}
         img="/wrfimg.jpeg"
         alt="Woman rock climbing."
-        about="Ireland's Women's Rock festival is an outdoor climbing event organised by women for women. Following a succesful first edition in 2022, the team recognized the need for a professional website. Noteworthy features include a custom booking system, email automation and a database designed to effortlessly retrieve information of over 80 participant and volunteers."
+        about="Ireland's Women's Rock festival is an outdoor climbing event organised by women for women. Following a succesful first edition in 2022, the team recognized the need for a professional website."
+        about2="Noteworthy features of the new website include a custom booking system, email automation and a database designed to effortlessly retrieve information of over 80 participant and volunteers."
         designstack="Figma, Linearity Curve"
         developmentstack="JavaScipt/TypeScript, TailwindCSS, Next, Vercel, Prisma, Postgres, Stripe, Sendgrid, Mapbox"
       />
@@ -137,9 +138,10 @@ const Work = () => {
         setDD={setProj3}
         img="/wdyflimg.jpeg"
         alt="A bowl of spaghetti bolognese."
-        about="What do you feel like? This website lets you create your own online recipe book. This passion project has helped inspire me on many occasions what to cook and to easily follow instructions. Especially handy are the filter function and to be able to modify whenever you want to change the recipe."
+        about="What do you feel like? This website lets you create your own online recipe book. What started off as a passion project has really helped me get inspired in the kitchen."
+        about2="Recipes can easily be modified and a convenient filter function allows you to quickly locate what you are looking for."
         designstack="Figma, Linearity Curve"
-        developmentstack="JavaScript/TypeScript, TailwindCSS, Next, Vercel, Prisma, AWS"
+        developmentstack="JavaScript/TypeScript, TailwindCSS, Next, Vercel, Prisma, Prostgres, AWS"
       />
       <div className={styles.borderdelay0}></div>
 
@@ -160,9 +162,10 @@ const Work = () => {
         setDD={setProj4}
         img="/bendycandleimg.jpeg"
         alt="Woman doing stretches on a yoga mat."
-        about="An app designed to help time passive stretching which can be used hands-free."
-        designstack="something, something, something"
-        developmentstack="something, something, something"
+        about="Bendy Candle lets you create your own flexibility routine and use a countdown timer while holding passive stretches."
+        about2="It ensures hands-free usage by incorporating visual and auditory cueues to signal transitions between exercises."
+        designstack="Linearity Curve"
+        developmentstack="JavaScipt, SCSS, Netlify"
       />
       <div className={styles.borderdelay0}></div>
 
