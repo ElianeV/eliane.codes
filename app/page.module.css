@@ -231,18 +231,15 @@
   color: #828282;
 }
 
-.projectcontainer {
-  cursor: pointer;
-}
-
 .projectcontainerTablet {
 }
 
 .titlecontainer {
   display: flex;
+  cursor: pointer;
 }
 
-.projectcontainer:hover {
+.titlecontainer:hover {
   background-color: #1c1c1c;
 }
 

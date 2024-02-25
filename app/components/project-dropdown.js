@@ -20,13 +20,13 @@ function ProjectDropdown({
 }) {
   return (
     <>
-      <div
-        onClick={() => {
-          setDD(!DD);
-        }}
-        className={`${styles.borderdelay8} ${styles.projectcontainer}`}
-      >
-        <div className={`${styles.titlecontainer}`}>
+      <div className={`${styles.borderdelay8} ${styles.projectcontainer}`}>
+        <div
+          onClick={() => {
+            setDD(!DD);
+          }}
+          className={`${styles.titlecontainer}`}
+        >
           <h2 className={`${styles.projecttitle} ${oswald.className}`}>
             {name}
           </h2>
